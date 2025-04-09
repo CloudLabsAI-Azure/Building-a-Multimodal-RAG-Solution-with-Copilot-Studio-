@@ -116,6 +116,8 @@ In this task, you will create a environment in powerplatform to use with copilot
 
    ![](../media/refresh.png)
 
+   >If you are facing any errors while creating environmnet, please ignore that and continue with the lab.
+
 1. As you have now created a new environment, navigate to **Copilot Studio**  in a new tab using this link: [copilot studio](https://go.microsoft.com/fwlink/p/?linkid=2252408&clcid=0x409&culture=en-us&country=us)
 
 1. On Welcome to Microsoft Copilot Studio page, Click on **Get Started**.
@@ -136,13 +138,7 @@ In this task, you will create a environment in powerplatform to use with copilot
 
    ![](../media/pp-11.png)
 
-
-<validation step="658eee55-d10b-4753-b81b-52babd12f376" />
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
+   > If you got error while creating the power platform environment, you won't be able to see the new environmnet, please continue with the default environmnet.
 
 ## Summary
 
