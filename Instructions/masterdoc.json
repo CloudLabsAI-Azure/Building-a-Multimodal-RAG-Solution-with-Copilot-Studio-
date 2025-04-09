@@ -5,23 +5,23 @@
       "BaseURL": "https://github.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-",
       "Files": [
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/getting-started.md",
+          "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/getting-started.md",
           "Order": 1
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/exercise1.md",
+          "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/exercise1.md",
           "Order": 2
         },
         {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/exercise2.md",
+            "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/exercise2.md",
             "Order": 3
         },
         {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/exercise3.md",
+            "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/exercise3.md",
             "Order": 4
         },
         {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/exercise4.md",
+            "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/main/Instructions/exercise4.md",
             "Order": 5
         }
 
