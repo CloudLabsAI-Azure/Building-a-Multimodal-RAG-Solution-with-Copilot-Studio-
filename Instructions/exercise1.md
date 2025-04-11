@@ -56,89 +56,21 @@ For this lab, you will focus on the Study Partner use case, where we crafted the
 
 ### Task 2: Setting Up an Environment for Copilot Studio
 
-In this task, you will create a environment in powerplatform to use with copilot studio and log in to Copilot Studio to access the environment created.
+In this task, you will log in to Copilot Studio.
 
-1. From your browser, navigate to **Power Platform Admin Center** using this link [Power Platform](https://admin.powerplatform.microsoft.com/)
-
-1. If the **Sign in** page is prompted, use the provided credentials to sign in to Power Platform and click **Next**.
-
-   - Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-     ![](../media/pp-1.png)
-
-1. Now, enter the following password and click on **Sign in**.
-
-   - Password: <inject key="AzureAdUserPassword"></inject>
-
-     ![](../media/pp-2.png)
-   
-1. On the **Stay signed in** pane, click on **No**.
-
-   ![](../media/pp-3.png)
-
-1. Once signed in, toggle **Try the new admin center** button to use new experience.
-
-   ![](../media/pp-14.png)
-
-1. Once you are in the **Power Platform Admin center** page, select **Manage (1)** from left menu and click on **+ New (2)**, to create a new environment.
-
-   ![](../media/pp-4-updated.png)
-
-1. In the **New environment** page, provide the following details and click on **Next (5)** :
-
-   - **Name**: provide as **odl_user_<inject key="DeploymentID" enableCopy="false" />_env** **(1)**.
-
-   - **Get new features early**: Toggle this option to **Yes (2)**.
-
-   - **Type**: Select **Production (3)** from dropdown.
-
-   - **Add a Dataverse data store**: Toggle this option to **Yes (4)**.
-
-     ![](../media/pp-5.png)
-
-1. In the next pane, click on **+ Select** under **Security group**.
-
-   ![](../media/pp-6.png)
-
-1. In the **Edit security group** pane, choose **None** option and click on **Done**.
-
-   ![](../media/pp-7.png)
-
-1. Once configurations are done, click on **Save**.
-
-   ![](../media/pp-8.png)
-
-1. Now the environment creation will start, please wait till the **State** changes from **Preparing** to **Ready**.
-
-   ![](../media/pp-9.png)
-
-    **Note**: You can also use the **Refresh** button to check if the **State** is **Ready** after some time.
-
-   ![](../media/refresh.png)
-
-   >If you are facing any errors while creating environmnet, please ignore that and continue with the lab.
-
-1. As you have now created a new environment, navigate to **Copilot Studio**  in a new tab using this link: [copilot studio](https://go.microsoft.com/fwlink/p/?linkid=2252408&clcid=0x409&culture=en-us&country=us)
+1. Navigate to **Copilot Studio**  in a new tab using this link: [copilot studio](https://go.microsoft.com/fwlink/p/?linkid=2252408&clcid=0x409&culture=en-us&country=us)
 
 1. On Welcome to Microsoft Copilot Studio page, Click on **Get Started**.
 
    ![](../media/pp-13.png)
+
+   > If you are seeing an option to **Start free trial** instead of Get Started, please go ahead and start free trial and continue with the lab.
 
 1. If the **Welcome to Copilot Studio** prompt appears, click **Skip**.
  
 1. Once you are inside **Copilot Studio** you will be in the home page. 
 
    ![](../media/ex1img3.png)
-
-1. In the home page, select the environment option as shown.
-
-   ![](../media/pp-10.png)
-
-1. Change the environment to the new environment that you have created earlier. Keep the tab open as you will be using this in further exercises.
-
-   ![](../media/pp-11.png)
-
-   > If you got error while creating the power platform environment, you won't be able to see the new environmnet, please continue with the default environmnet.
 
 ## Summary
 
