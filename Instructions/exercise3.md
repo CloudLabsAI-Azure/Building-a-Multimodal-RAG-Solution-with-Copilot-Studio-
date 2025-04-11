@@ -22,7 +22,7 @@ In this task, you will create an agent in Copilot Studio. The agent will leverag
 
 1. Navigate back to the **Copilot Studio** tab, as you have already logged in, select **Create (1)** from the left menu and click on **New agent (2)** option to create a new AI agent.
 
-   ![](../media/ex3img1.png)
+   ![](../media/cop2.png)
 
 1. Inside the **Agent** pane click on **Skip to configure** as we will be configuring this further in this exercise.
 
@@ -104,9 +104,9 @@ In this task, you will create custom topics and integrate them with AI Search as
   
    ![](../media/ex3img11.png)
 
-1. In the Azure AI Search page, click on **create** option.
+1. In the Azure AI Search page, click on **...** option and select **Add Connection**.
 
-   ![](../media/pp-12.png)
+   ![](../media/cop1.png)
 
 1. Now provide **Azure AI Search Endpoint URL (1)** and **Azure AI Search Admin Key (2)** values which you have copied earlier and click on **Create (3)**.
 
@@ -163,13 +163,6 @@ In this task, you will test the RAG pipeline in Copilot Studio. You will evaluat
    - `Can you explain the physics behind tsunamis?`
 
    - `What happens to time if you fall into a black hole?`
-
-<validation step="adf4bcc6-798f-4532-b12a-14e25ef5e9c6" />
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
 
 ## Summary
 
