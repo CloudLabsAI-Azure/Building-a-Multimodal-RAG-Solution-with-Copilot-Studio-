@@ -50,25 +50,25 @@ Welcome to Developing a Multimodal RAG Solution Hands-On-Lab! , We've prepared a
 
 Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
 
-![](../media/gs-1.png)
+![](../media/gs-1env.png)
 
 ### Exploring Your Lab Resources
 
 To get a better understanding of your Lab resources and credentials, navigate to the Environment tab.
 
-![](../media/gs-2.png)
+![](../media/gs-2upd.png)
 
 ### Utilizing the Split Window Feature
 
 For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the Top right corner
 
-![](../media/gs-3.png)
+![](../media/gs-3upd.png)
 
 ### Managing Your Virtual Machine
 
 Feel free to start, stop, or restart your virtual machine as needed from the Resources tab. Your experience is in your hands!
 
-![](../media/gs-4.png)
+![](../media/gs-4upd.png)
 
 ## Let's Get Started with Azure Portal
 
