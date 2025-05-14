@@ -86,9 +86,9 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
      ![](../media/ex4img5upd1.png)
 
-1. On the Data management pane, keep everything as default and click on **Next**.
+1. On the Data management pane, for Search type, select **Hybrid (vector + keyword) (1)** and click on **Next (2)**.
 
-   ![](../media/ex2img8.png)
+   ![](../media/ex1-step10.png)
 
 1. In the **Data connection** page, check the **API Key (1)**, click on **Next (2)** and click on **save and close**.
 
@@ -124,12 +124,14 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    - `What happens to time if you fall into a black hole?`
 
-<validation step="7a529e69-2cbc-4b21-b367-7d03fe5eabb1" />
+
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
+
+<validation step="7a529e69-2cbc-4b21-b367-7d03fe5eabb1" />
 
 ## Summary
 
