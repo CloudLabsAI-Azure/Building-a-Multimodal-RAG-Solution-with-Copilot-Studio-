@@ -4,15 +4,15 @@
   "Language": "English",
   "Files": [
      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/challenge/overview.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/challenge/overview.md",
        "Order": 1
      },
      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/challenge/getting-started.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/challenge/getting-started.md",
        "Order": 2
      },
      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/challenge/challenge.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Building-a-Multimodal-RAG-Solution-with-Copilot-Studio-/refs/heads/challenge/challenge.md",
        "Order": 3
      }
   ]
