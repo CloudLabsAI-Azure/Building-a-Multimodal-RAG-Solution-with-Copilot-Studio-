@@ -12,11 +12,11 @@ You will be able to complete the following task:
 
 - Task 1: Overview of RAG and Automation
 
-- Task 2 : Configuring and testing the solution
+- Task 2: Configuring and testing the solution
 
 ### Task 1: Overview of RAG and Automation
 
-In this task, you will explore the fundamentals of Retrieval-Augmented Generation (RAG) and its role in creating intelligent, context-aware AI solutions. you'll also set up Copilot Studio.
+In this task, you will explore the fundamentals of Retrieval-Augmented Generation (RAG) and its role in creating intelligent, context-aware AI solutions. You'll also set up Copilot Studio.
 
 #### Introduction to Retrieval-Augmented Generation (RAG)
 
@@ -56,7 +56,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    > **gpt-4:** GPT-4 Turbo is a powerful variant of the GPT-4 model with enhanced capabilities for both text and image analysis. It can process and understand images alongside text, allowing for tasks like image captioning, object recognition, and visual question answering, making it ideal for multimodal applications.
 
-   > **text-embedding-ada-002:** A text embedding model converts text into a numerical representation (vector), capturing the semantic meaning of the content. These embeddings allow for efficient similarity searches and can be used to compare, cluster, or retrieve relevant information from large text datasets.\
+   > **text-embedding-ada-002:** A text embedding model converts text into a numerical representation (vector), capturing the semantic meaning of the content. These embeddings allow for efficient similarity searches and can be used to compare, cluster, or retrieve relevant information from large text datasets.
 
 1. In Azure AI Foundry, navigate to chat playground by selecting **chat** option from left menu.
 
@@ -68,21 +68,21 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 1. In the **Add data** page, provide the following details and click on **Next (9)**.  
 
-   - **Select data source :** select **Azure Blob Storage (preview) (1)** from dropdown.
+   - **Select data source:** Select **Azure Blob Storage (preview) (1)** from dropdown.
 
-   - **Subscription :** Select the available subscription **(2)**.
+   - **Subscription:** Select the available subscription **(2)**.
 
-   - **Select Azure Blob Storage resource :** Select **storage<inject key="DeploymentID" enableCopy="false" />** **(3)** storage account from list.
+   - **Select Azure Blob Storage resource:** Select **storage<inject key="DeploymentID" enableCopy="false" />** **(3)** storage account from list.
 
-   - **Select storage container :** select **documents (4)** container.
+   - **Select storage container:** Select **documents (4)** container.
 
-   - **Select Azure AI Search resource :** select **aisearch-<inject key="DeploymentID" enableCopy="false" />** **(5)** AI Search from list.
+   - **Select Azure AI Search resource:** Select **aisearch-<inject key="DeploymentID" enableCopy="false" />** **(5)** AI Search from list.
 
-   - **Enter the index name :** provide as **phy-index (6)**.
+   - **Enter the index name:** Enter **phy-index (6)**.
 
-   - **Add vector search to this search resource :** ensure the option is **Checked (7)**
+   - **Add vector search to this search resource:** Ensure the option is **Checked (7)**
 
-   - **Select an embedding model :** select **Azure OpenAI Service-text-embedding-ada-002 (8)** model.
+   - **Select an embedding model:** Select **Azure OpenAI Service-text-embedding-ada-002 (8)** model.
 
      ![](../media/ex4img5upd1.png)
 
@@ -94,11 +94,11 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/ex2img9.png)
 
-1. Once the Add data pane is closed, you can see **Ingestion in progress** status under Add you data. Please wait until it completes.
+1. Once the Add data pane is closed, you can see the **Ingestion in progress** status under Add your data. Please wait until it completes.
 
    ![](../media/ex2img10.png)
 
-1. Once the ingestion is completed, navigate back to Azure portal and from the resource list of the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** AI search.
+1. Once the ingestion is completed, navigate back to the Azure portal and from the resource list of the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** AI search.
 
    ![](../media/ex2img11.png)
 
@@ -106,7 +106,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/ex4img8.png)
 
-   >**Note:** Please wait until some data populates under **Vector index size**, it may take some time to populate. The data may differ from the value shown in screenshot.
+   >**Note:** Please wait until some data populates under **Vector index size**, it may take some time to populate. The data may differ from the value shown in the screenshot.
 
 1. Now the data has been ingested, and the index has been created successfully.
 
@@ -123,7 +123,6 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
    - `Can you explain the physics behind tsunamis?`
 
    - `What happens to time if you fall into a black hole?`
-
 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
