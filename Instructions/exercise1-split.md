@@ -32,7 +32,6 @@ Retrieval-Augmented Generation (RAG) is a powerful approach in AI that combines 
 
 In this task, you will connect Blob Storage as a data source in Azure AI Studio's Chat Playground. The GPT-4 Turbo and text embedding models will process the uploaded files, extract relevant data, and create indexed vectors in Azure AI Search. You will then review the created indexes.
 
-1. As you have setup Copilot Studio, now it's time to ingest data. Navigate to Azure Portal from your browser.
 
 1. From Azure Portal, scroll down and click on **Resource groups**.
 
@@ -94,7 +93,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/21052025(10).png)
 
-1. Review the Configuration, and click on **Save and close**.
+1. Review the configuration, and click on **Save and close**.
 
    ![](../media/21052025(11).png)
 
