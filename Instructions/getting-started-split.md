@@ -1,6 +1,6 @@
 # Developing a Multimodal RAG Solution
 
-### Overall Estimated Duration : 60 minutes
+### Overall Estimated Duration: 60 minutes
 
 ## Overview
 
@@ -38,33 +38,33 @@ The architecture for this lab involves several key components:
 
 - **Azure AI Services:** Provides the advanced AI models, including language understanding and generative capabilities, used by AI Studio to extract data and process user interactions efficiently.
 
-- **Azure AI Search:** Creates semantic indexes from the processed data, enabling efficient and meaningful retrieval of information. This component supports enhanced search capabilities by understanding user queries contextually.
+- **Azure AI Search:** Creates semantic indexes from the processed data, enabling efficient and meaningful retrieval of information. This component supports enhanced search capabilities by understanding the user queries contextually.
 
 ## Getting Started with Lab
 
-Welcome to Developing a Multimodal RAG Solution Hands-On-Lab! , We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
+Welcome to Developing a Multimodal RAG Solution Hands-On-Lab! We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
 
 >**Note:** If a PowerShell window appears once the environment is active, please don't close it. Minimize it instead of closing it and proceed with the tasks.
 
-### Accessing Your Lab Environment
+## Accessing Your Lab Environment
 
 Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
 
 ![](../media/gs-1env.png)
 
-### Exploring Your Lab Resources
+## Exploring Your Lab Resources
 
 To get a better understanding of your Lab resources and credentials, navigate to the Environment tab.
 
 ![](../media/gs-2upd.png)
 
-### Utilizing the Split Window Feature
+## Utilizing the Split Window Feature
 
 For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the Top right corner
 
 ![](../media/gs-4upd.png)
 
-### Managing Your Virtual Machine
+## Managing Your Virtual Machine
 
 Feel free to start, stop, or restart your virtual machine as needed from the Resources tab. Your experience is in your hands!
 
@@ -90,20 +90,18 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
      >**Note:** If you see the Action Required dialog box, then select Ask Later option.
      
-1. If you see the pop-up **Stay Signed in?**, click No.
-
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the Lab.
+1. If you see the pop-up **Stay Signed in?**, click **No**.
 
 1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
 
 ## Support Contact
 
-The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.Learner Support Contacts:
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed. Learner Support Contacts:
 
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Now, click on the **Next** from lower right corner to move on next page.
+Now, click on the **Next** from the lower right corner to move to the next page.
 
 ![](../media/gs-5.png)
 
