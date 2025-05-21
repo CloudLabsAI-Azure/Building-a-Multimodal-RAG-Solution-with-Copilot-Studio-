@@ -36,37 +36,37 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 1. From Azure Portal, scroll down and click on **Resource groups**.
 
-   ![](../media/ex2img1.png)
+   ![](../media/21052025(1).png)
 
-1. On Resource groups page, select **copilot-<inject key="DeploymentID" enableCopy="false" />**.
+1. On Resource groups page, select **copilot**.
 
-   ![](../media/ex1-updated1.png)
+   ![](../media/21052025(2).png)
 
 1. From the resource list, select **openai-<inject key="DeploymentID" enableCopy="false" />** AI Service.
 
-   ![](../media/ex1-updated2.png)
+   ![](../media/21052025(3).png)
 
-1. In the Azure OpenAI pane, click on **Go to Azure AI Foundry Portal** to navigate to AI Foundry, where you will be ingesting your data.
+1. On the Azure OpenAI page, click on **Go to Azure AI Foundry Portal** to navigate to AI Foundry, where you will be ingesting your data.
 
-   ![](../media/i2.png)
+   ![](../media/21052025(4).png)
 
-1. Once you are inside the **Azure AI Foundry**, click on **deployments** to check the deployed models.
+1. Once you're inside **Azure AI Foundry**, go to the **Shared resources** section and click on **Deployments** to view the deployed models.
 
-   ![](../media/ex2img13.png)
+   ![](../media/21052025(5).png)
 
    > **gpt-4:** GPT-4 Turbo is a powerful variant of the GPT-4 model with enhanced capabilities for both text and image analysis. It can process and understand images alongside text, allowing for tasks like image captioning, object recognition, and visual question answering, making it ideal for multimodal applications.
 
    > **text-embedding-ada-002:** A text embedding model converts text into a numerical representation (vector), capturing the semantic meaning of the content. These embeddings allow for efficient similarity searches and can be used to compare, cluster, or retrieve relevant information from large text datasets.
 
-1. In Azure AI Foundry, navigate to chat playground by selecting **chat** option from left menu.
+1. In **Azure AI Foundry**, navigate to the chat playgrounds by selecting the **Chat** option from the left-hand menu.
 
-   ![](../media/ex2img5.png)
+   ![](../media/21052025(6).png)
 
 1. On chat playground pane, select **Add your data (1)** to ingest data and click on **+ Add a data source (2)**.
 
-   ![](../media/ex2img6.png)
+   ![](../media/21052025(7).png)
 
-1. In the **Add data** page, provide the following details and click on **Next (9)**.  
+1. On the **Add data** page, provide the following details and click on **Next (9)**.  
 
    - **Select data source:** Select **Azure Blob Storage (preview) (1)** from dropdown.
 
@@ -82,29 +82,35 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    - **Add vector search to this search resource:** Ensure the option is **Checked (7)**
 
-   - **Select an embedding model:** Select **Azure OpenAI Service-text-embedding-ada-002 (8)** model.
+   - **Select an embedding model:** Select **Azure OpenAI Service - text-embedding-ada-002 (8)** model.
 
-     ![](../media/ex4img5upd1.png)
+     ![](../media/21052025(8).png)
 
-1. On the Data management pane, for Search type, select **Hybrid (vector + keyword) (1)** and click on **Next (2)**.
+1. On the **Data Management** page, under **Search type**, select **Hybrid (vector + keyword)** **(1)**, then click on **Next** **(2)**.
 
-   ![](../media/ex1-step10.png)
+   ![](../media/21052025(9).png)
 
-1. In the **Data connection** page, check the **API Key (1)**, click on **Next (2)** and click on **save and close**.
+1. On the **Data connection** page, select the **API Key (1)**, click on **Next (2)**.
 
-   ![](../media/ex2img9.png)
+   ![](../media/21052025(10).png)
+
+1. Review the Configuration, and click on **Save and close**.
+
+   ![](../media/21052025(11).png)
 
 1. Once the Add data pane is closed, you can see the **Ingestion in progress** status under Add your data. Please wait until it completes.
 
-   ![](../media/ex2img10.png)
+   ![](../media/21052025(12).png)
 
-1. Once the ingestion is completed, navigate back to the Azure portal and from the resource list of the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** AI search.
+   ![](../media/21052025(13).png)
 
-   ![](../media/ex2img11.png)
+1. Once the ingestion is complete, navigate back to the Azure portal. From the list of resources in the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** AI search.
 
-1. In the **Azure AI Search** page, select **indexes** from left menu under Search management, you will be able to see an index with the name **phy-index** has been created.
+   ![](../media/21052025(14).png)
 
-   ![](../media/ex4img8.png)
+1. On the **Azure AI Search** page, select **Indexes** from the left-hand menu under **Search management**. You should see an index named **phy-index** that has been created.
+
+   ![](../media/21052025(15).png)
 
    >**Note:** Please wait until some data populates under **Vector index size**, it may take some time to populate. The data may differ from the value shown in the screenshot.
 
@@ -136,4 +142,4 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 In this exercise, you have navigated to Azure AI Studio and added a data source by connecting Blob Storage to the Chat Playground. You utilized the GPT-4 Turbo and text embedding models to analyze images, text, and tables, generating vectorized indexes. These indexes were then created in the Azure AI Search service, and you reviewed them to confirm the proper ingestion and indexing of the data.
 
-### You have successfully completed this exercise!
+### You have successfully completed this Lab!
