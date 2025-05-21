@@ -38,7 +38,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/ex2img1.png)
 
-1. On Resource groups pane, select resource group **copilot-<inject key="DeploymentID" enableCopy="false" />**.
+1. On Resource groups page, select **copilot-<inject key="DeploymentID" enableCopy="false" />**.
 
    ![](../media/ex1-updated1.png)
 
