@@ -1,4 +1,4 @@
-# Exercise 1: Build Retrieval Augmented Generation solution in Azure AI Foundry 
+# Exercise 1: Build a Retrieval Augmented Generation solution in Azure AI Foundry 
 
 ### Estimated Duration: 60 minutes
 
@@ -32,16 +32,15 @@ Retrieval-Augmented Generation (RAG) is a powerful approach in AI that combines 
 
 In this task, you will connect Blob Storage as a data source in Azure AI Studio's Chat Playground. The GPT-4 Turbo and text embedding models will process the uploaded files, extract relevant data, and create indexed vectors in Azure AI Search. You will then review the created indexes.
 
-
-1. From Azure Portal, scroll down and click on **Resource groups**.
+1. From the Azure Portal, scroll down and click on **Resource groups**.
 
    ![](../media/21052025(1).png)
 
-1. On Resource groups page, select **copilot**.
+1. On the Resource groups page, select **copilot**.
 
    ![](../media/21052025(2).png)
 
-1. From the resource list, select **openai-<inject key="DeploymentID" enableCopy="false" />** AI Service.
+1. From the resource list, select **openai-<inject key="DeploymentID" enableCopy="false" />** Azure OpenAI Service.
 
    ![](../media/21052025(3).png)
 
@@ -77,7 +76,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    - **Select Azure AI Search resource:** Select **aisearch-<inject key="DeploymentID" enableCopy="false" />** **(5)** AI Search from list.
 
-   - **Enter the index name:** Enter **phy-index (6)**.
+   - **Enter the index name:** Enter **phy-index (6)**
 
    - **Add vector search to this search resource:** Ensure the option is **Checked (7)**
 
