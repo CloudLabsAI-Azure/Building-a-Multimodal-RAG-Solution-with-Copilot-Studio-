@@ -60,7 +60,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. Navigate to **Copilot Studio**  in a new tab using this link: [copilot studio](https://go.microsoft.com/fwlink/p/?linkid=2252408&clcid=0x409&culture=en-us&country=us)
 
-1. On Welcome to Microsoft Copilot Studio page, Click on **Get Started**.
+1. On Welcome to Microsoft Copilot Studio page, Click on **Start Free Trial**.
 
    ![](./media/pp-13.png)
 
