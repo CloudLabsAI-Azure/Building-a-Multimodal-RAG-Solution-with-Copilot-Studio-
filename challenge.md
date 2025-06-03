@@ -60,7 +60,7 @@ Develop an intelligent health symptom identification bot that helps individuals 
 
    - Navigate to  **OpenAI Studio** and deploy two models using the deployments option.
 
-   - Deploy the **GPT-4 model** with **50 TPM** and the **Text-Embedding** model within the Azure OpenAI Service from OpenAI Studio.
+   - Deploy the **GPT-4 model** and the **Text-Embedding** model within the Azure OpenAI Service from OpenAI Studio.
 
    - From the Chat Playground in OpenAI Studio, use the **Add Data Source** option to select Blob Storage as the source. Then, connect it with Azure AI Search to create **vectorized indexes** and provide index name as **sym-index**.
 
