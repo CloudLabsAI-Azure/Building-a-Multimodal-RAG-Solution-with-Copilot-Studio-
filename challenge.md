@@ -22,7 +22,7 @@ Develop an intelligent health symptom identification bot that helps individuals 
 
    - Set up an Azure Blob Storage account with SKU size **Standard_LRS**.
 
-   - Deploy it in the existing resource group named **rag-hack-<inject key="Deployment ID" enableCopy="false"/>**.
+   - Deploy it in the existing resource group named **rag-hack**.
 
    - Ensure to provide the Azure Blob Storage account name as **blobstorage<inject key="Deployment ID" enableCopy="false"/>**.
 
@@ -38,7 +38,7 @@ Develop an intelligent health symptom identification bot that helps individuals 
 
    - Set up an Azure AI Search resource with **Standard** tier.
 
-   - Deploy it in the existing resource group named **rag-hack-<inject key="Deployment ID" enableCopy="false"/>**.
+   - Deploy it in the existing resource group named **rag-hack**.
 
    -  Ensure to provide the Azure AI Search resource name as: **aisearch-<inject key="Deployment ID" enableCopy="false"/>**.
 
@@ -54,7 +54,7 @@ Develop an intelligent health symptom identification bot that helps individuals 
 
    - Set up an Azure OpenAI Service instance with SKU size **Standard S0**.
 
-   - Deploy it in the existing resource group named **rag-hack-<inject key="Deployment ID" enableCopy="false"/>**.
+   - Deploy it in the existing resource group named **rag-hack**.
 
    -  Ensure to provide the Azure OpenAI Service name as: **OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
