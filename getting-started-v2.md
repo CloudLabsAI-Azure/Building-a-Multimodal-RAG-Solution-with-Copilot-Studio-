@@ -62,7 +62,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. On Welcome to Microsoft Copilot Studio page, Click on **Start Free Trial**.
 
-   ![](./media/pp-13.png)
+   ![](./media/gt12.png)
 
 1. If the **Welcome to Copilot Studio** prompt appears, click **Skip**.
  
