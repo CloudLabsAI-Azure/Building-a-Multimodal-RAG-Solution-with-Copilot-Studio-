@@ -74,9 +74,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    ![](./media/pp-10.png)
 
-1. Change the environment to the new environmnet, where the name will be in the format RAG**X**ENV. Keep the tab open as you will be using this in further exercises.
+1. Change the environment to the new environmnet, where the name will be in the format ENVRAG**X**. Keep the tab open as you will be using this in further exercises.
 
    ![](./media/pp-11-up.png)
+
+   >**Note:** Here **X** is the number of your environmnet, it may be any number.
 
 1. Keep this browser tab open, you will be using this further.
 
