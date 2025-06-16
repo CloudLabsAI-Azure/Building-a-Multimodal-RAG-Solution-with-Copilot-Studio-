@@ -44,9 +44,9 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/21052025(3).png)
 
-1. On the Azure OpenAI page, click on **Go to Azure AI Foundry Portal** to navigate to AI Foundry, where you will be ingesting your data.
+1. On the Azure OpenAI page, click on **Go to Azure AI Foundry Portal (1)** or click on **Explore Azure AI foundry portal (2)** to navigate to AI Foundry, where you will be ingesting your data.
 
-   ![](../media/21052025(4).png)
+   ![](../media/16062025(1).png)
 
 1. Once you're inside **Azure AI Foundry**, go to the **Shared resources** section and click on **Deployments** to view the deployed models.
 
