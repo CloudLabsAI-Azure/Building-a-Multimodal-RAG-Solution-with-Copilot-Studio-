@@ -44,7 +44,7 @@ The architecture for this lab involves several key components:
 
 Welcome to Developing a Multimodal RAG Solution Hands-On-Lab! We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
 
->**Note:** If a PowerShell window appears once the environment is active, please don't close it. Minimise it instead of closing it, and proceed with the tasks.
+>**Note:** If a PowerShell window appears once the environment is active, please don't close it. Minimize it instead of closing it, and proceed with the tasks.
 
 ## Accessing Your Lab Environment
 
@@ -94,7 +94,7 @@ To adjust the zoom level for the environment page, click the **A↕: 100%** icon
 
      ![](../media/gs-7.png)
 
-     >**Note:** If you see the Action Required dialogue box, then select the Ask Later option.
+     >**Note:** If you see the Action Required dialog box, then select Ask Later option.
      
 1. If you see the pop-up **Stay Signed in?**, click **No**.
 

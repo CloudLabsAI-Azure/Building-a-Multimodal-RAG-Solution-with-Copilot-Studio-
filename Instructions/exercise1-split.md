@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this exercise, you will learn how to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4 Turbo and text embedding models. The exercise involves connecting a Blob Storage to Azure AI Studio, where various data formats (text, images, and tables) have been uploaded. You will use these files to create vectorised indexes, which will be generated using advanced AI models. After that, you will navigate to Azure AI Search to review the creation and structure of these indexes, ensuring that the data has been successfully ingested and preprocessed.
+In this exercise, you will learn how to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4 Turbo and text embedding models. The exercise involves connecting a Blob Storage to Azure AI Studio, where various data formats (text, images, and tables) have been uploaded. You will use these files to create vectorized indexes, which will be generated using advanced AI models. After that, you will navigate to Azure AI Search to review the creation and structure of these indexes, ensuring that the data has been successfully ingested and preprocessed.
 
 ## Objectives
 
@@ -82,7 +82,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
      ![](../media/21052025(8).png)
 
-1. On the **Data Management** page, under **Search type**, select **Hybrid (vector + keyword)** **(1)**, Under **Select a size** , select the **1024 (default) check box (2)** then click on **Next (3)**.
+1. On the **Data Management page**, select **Hybrid (vector + keyword) (1)** under the Search type section. Then, under Select a size, check the **1024 (default) option (2)**. Once both selections are made, click **Next (3)** to continue..
 
    ![](../media/gs1515.png)
 
@@ -138,5 +138,5 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 ## Summary
 
-In this exercise, you used **Azure AI Studio** to connect a Blob Storage container as a data source within the Chat Playground. Leveraging **GPT-4 Turbo** along with **text embedding models**, you analysed various content types, including images, text, and tables, to generate **vectorised indexes**. These indexes were subsequently stored in **Azure AI Search**, where you reviewed them to ensure the data was correctly ingested and indexed.
+In this exercise, you used **Azure AI Studio** to connect a Blob Storage container as a data source within the Chat Playground. Leveraging **GPT-4 Turbo** along with **text embedding models**, you analyzed various content types, including images, text, and tables, to generate **vectorized indexes**. These indexes were subsequently stored in **Azure AI Search**, where you reviewed them to ensure the data was correctly ingested and indexed.
 
