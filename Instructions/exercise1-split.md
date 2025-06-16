@@ -82,9 +82,9 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
      ![](../media/21052025(8).png)
 
-1. On the **Data Management** page, under **Search type**, select **Hybrid (vector + keyword)** **(1)**, Under **Select a size** , select the **1024 (default) check box** then click on **Next (2)**.
+1. On the **Data Management** page, under **Search type**, select **Hybrid (vector + keyword)** **(1)**, Under **Select a size** , select the **1024 (default) check box (2)** then click on **Next (3)**.
 
-   ![](../media/21052025(9).png)
+   ![](../media/gs1515.png)
 
 1. On the **Data connection** page, select the **API Key (1)**, click on **Next (2)**.
 
