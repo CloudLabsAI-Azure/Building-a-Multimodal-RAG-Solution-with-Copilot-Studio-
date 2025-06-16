@@ -68,7 +68,7 @@ For convenience, you can open the Lab guide in a separate window by selecting th
 
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
-![](../media/gs-3upd.png)
+![](../media/gs-3upd-1.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
@@ -78,7 +78,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 ## Let's Get Started with Azure Portal
 
-1. In the JumpVM, click on **Azure portal** shortcut of Microsoft Edge browser which is created on desktop.
+1. In the JumpVM, click on **Azure Portal** shortcut of Microsoft Edge browser which is created on desktop.
 
    ![](../media/gs-8.png)
 
@@ -98,7 +98,11 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
      
 1. If you see the pop-up **Stay Signed in?**, click **No**.
 
+   ![](../media/gs1212.png)
+
 1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
+   
+   ![](../media/gs1313.png)
 
 ## Support Contact
 
