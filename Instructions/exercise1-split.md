@@ -1,7 +1,5 @@
 # Exercise 1: Build a Retrieval Augmented Generation solution in Azure AI Foundry 
 
-### Estimated Duration: 60 minutes
-
 ## Overview
 
 In this exercise, you will learn how to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4 Turbo and text embedding models. The exercise involves connecting a Blob Storage to Azure AI Studio, where various data formats (text, images, and tables) have been uploaded. You will use these files to create vectorized indexes, which will be generated using advanced AI models. After that, you will navigate to Azure AI Search to review the creation and structure of these indexes, ensuring that the data has been successfully ingested and preprocessed.
@@ -44,9 +42,9 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/21052025(3).png)
 
-1. On the Azure OpenAI page, click on **Go to Azure AI Foundry Portal** to navigate to AI Foundry, where you will be ingesting your data.
+1. On the Azure OpenAI page, click on **Go to Azure AI Foundry Portal (1)** or click on **Explore Azure AI foundry portal (2)** to navigate to AI Foundry, where you will be ingesting your data.
 
-   ![](../media/21052025(4).png)
+   ![](../media/16062025(1).png)
 
 1. Once you're inside **Azure AI Foundry**, go to the **Shared resources** section and click on **Deployments** to view the deployed models.
 
@@ -140,4 +138,3 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 In this exercise, you used **Azure AI Studio** to connect a Blob Storage container as a data source within the Chat Playground. Leveraging **GPT-4 Turbo** along with **text embedding models**, you analyzed various content types, including images, text, and tables, to generate **vectorized indexes**. These indexes were subsequently stored in **Azure AI Search**, where you reviewed them to ensure the data was correctly ingested and indexed.
 
-### You have successfully completed this Lab!
