@@ -116,7 +116,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    - `What happens to time when an object moves close to the speed of light?`
 
-   - `Can a cat really be alive and dead at the same time?`
+   - `Can a cat be alive and dead at the same time?`
 
    - `What is the fourth dimension, and how is it related to time?`
 
