@@ -8,7 +8,7 @@ In this hands-on lab, you will learn to build and automate a Retrieval-Augmented
 
 ## Objective
 
-Learn to build and automate a Retrieval-Augmented Generation (RAG) solution, leveraging AI models like text embeddings, language models, and generative AI. By the end of this lab, you will get insights on these concepts:
+Learn to build and automate a Retrieval-Augmented Generation (RAG) solution, leveraging AI models like text embeddings, language models, and generative AI. By the end of this lab, you will get insights into these concepts:
 
 - **Build Retrieval Augmented Generation solution in Azure AI Foundry:** Learn to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4 Turbo and text embedding models.
 
@@ -44,17 +44,17 @@ The architecture for this lab involves several key components:
 
 Welcome to Developing a Multimodal RAG Solution Hands-On-Lab! We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
 
->**Note:** If a PowerShell window appears once the environment is active, please don't close it. Minimize it instead of closing it and proceed with the tasks.
+>**Note:** If a PowerShell window appears once the environment is active, please don't close it. Minimise it instead of closing it, and proceed with the tasks.
 
 ## Accessing Your Lab Environment
 
-Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and Lab guide will be readily available within your web browser.
 
 ![](../media/gs-1env.png)
 
 ## Exploring Your Lab Resources
 
-To get a better understanding of your Lab resources and credentials, navigate to the **Environment** tab.
+To get a better understanding of your Lab resources and credentials, you can just go to the **Environment** tab.
 
 ![](../media/gs-2upd.png)
 
@@ -72,13 +72,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 ## Lab Guide Zoom In/Zoom Out
 
-To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
 ![](../media/21052025(16).png)
 
 ## Let's Get Started with Azure Portal
 
-1. In the JumpVM, click on **Azure Portal** shortcut of Microsoft Edge browser which is created on desktop.
+1. In the JumpVM, click on the **Azure Portal** shortcut of the Microsoft Edge browser, which is created on the desktop.
 
    ![](../media/gs-8.png)
 
@@ -94,7 +94,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
      ![](../media/gs-7.png)
 
-     >**Note:** If you see the Action Required dialog box, then select Ask Later option.
+     >**Note:** If you see the Action Required dialogue box, then select the Ask Later option.
      
 1. If you see the pop-up **Stay Signed in?**, click **No**.
 
