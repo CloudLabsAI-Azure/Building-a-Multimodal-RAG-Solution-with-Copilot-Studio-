@@ -82,7 +82,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
      ![](../media/21052025(8).png)
 
-1. On the **Data Management page**, select **Hybrid (vector + keyword) (1)** under the Search type section. Then, under Select a size, check the **1024 (default) option (2)**. Once both selections are made, click **Next (3)** to continue..
+1. On the **Data Management page**, select **Hybrid (vector + keyword) (1)** under the Search type section. Then, under Select a size, check the **1024 (default) option (2)**. Once both selections are made, click **Next (3)** to continue.
 
    ![](../media/gs1515.png)
 
@@ -130,9 +130,9 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - Hit the Validate button for the corresponding task. If you receive a success message, it means the exercise has been completed successfully.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
 <validation step="7a529e69-2cbc-4b21-b367-7d03fe5eabb1" />
 
@@ -140,3 +140,4 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 In this exercise, you used **Azure AI Studio** to connect a Blob Storage container as a data source within the Chat Playground. Leveraging **GPT-4 Turbo** along with **text embedding models**, you analyzed various content types, including images, text, and tables, to generate **vectorized indexes**. These indexes were subsequently stored in **Azure AI Search**, where you reviewed them to ensure the data was correctly ingested and indexed.
 
+### You have successfully completed the lab!
