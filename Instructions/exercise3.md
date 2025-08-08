@@ -32,7 +32,7 @@ In this task, you will create an agent in Copilot Studio. The agent will leverag
 
    ![](../media/ex4img6.png)
 
-1. Now you have successfully created a agent. You will be configuring the agent in the further tasks.
+1. Now you have successfully created a agent. You will be configuring the agent in the further tasks. Ensure the **Orchestration** is **Disabled**.
 
    ![](../media/E3T1S4.png)
 

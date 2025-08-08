@@ -26,13 +26,13 @@ In this task, you will integrate your RAG solution with a demo website, using it
 
    ![](../media/ex4img2.png)
 
-1. Under **Authentication**, choose **No authentication (1)** option, as we are publishing the agent as a website. Click on **Save (2)**.
+1. Under **Authentication**, choose **No authentication (1)** option, as we are publishing the agent as a website. Click on **Save (2)**. **Close** settings from top right of the settings menu.
 
    ![](../media/ex4img3.png)
 
 1. Once the authentication part is done, navigate to **Channels (1)** tab and check that many options are available to publish the agent, but in this lab we will be using **Demo webiste (2)** option, so click on that.
 
-   ![](../media/ex4img4.png)
+   ![](../media/E4T2S5.png)
 
    >Other Options:
 
