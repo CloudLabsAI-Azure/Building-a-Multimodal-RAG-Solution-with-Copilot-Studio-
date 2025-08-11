@@ -106,6 +106,63 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
 
+
+## Creating Environment in Power Platform
+
+1. From your browser, navigate to **Power Platform Admin Center** using this link [Power Platform](https://admin.powerplatform.microsoft.com/)
+
+1. If the **Sign in** page is prompted, use the provided credentials to sign in to Power Platform and click **Next**.
+
+   - Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+     ![alt text](image.png)
+
+1. Now, enter the following password and click on **Sign in**.
+
+   - Password: <inject key="AzureAdUserPassword"></inject>
+
+     ![alt text](image-1.png)
+   
+1. On the **Stay signed in** pane, click on **No**.
+
+   ![alt text](image-2.png)
+
+1. Once signed in, toggle **Try the new admin center** button to use new experience.
+
+   ![alt text](image-3.png)
+
+1. Once you are in the **Power Platform Admin center** page, select **Manage (1)** from left menu and click on **+ New (2)**, to create a new environment.
+
+   ![alt text](image-5.png)
+
+1. In the **New environment** page, provide the following details and click on **Next (5)** :
+
+   - **Name**: provide as **odl_user_<inject key="DeploymentID" enableCopy="false" />_env** **(1)**.
+
+   - **Get new features early**: Toggle this option to **Yes (2)**.
+
+   - **Type**: Select **Production (3)** from dropdown.
+
+   - **Add a Dataverse data store**: Toggle this option to **Yes (4)**.
+
+     ![alt text](image-6.png)
+
+1. In the next pane, click on **+ Select** under **Security group**.
+
+   ![alt text](image-7.png)
+
+1. In the **Edit security group** pane, choose **None** option and click on **Done**.
+
+   ![alt text](image-8.png)
+
+1. Once configurations are done, click on **Save**.
+
+   ![alt text](image-9.png)
+
+1. Now the environment creation will start, please wait till the **State** changes from **Preparing** to **Ready**.
+
+   ![alt text](image-10.png)
+
 ## Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.Learner Support Contacts:
