@@ -72,6 +72,10 @@ In this task, you will log in to Copilot Studio.
 
    ![](../media/ex1img3.png)
 
+1. Switch the Environment to the newly created developer environment.
+
+   ![](../media/Env-switch.png)
+
 ## Summary
 
 In this exercise, you explored the fundamentals of Retrieval-Augmented Generation (RAG) and its role in enhancing AI workflows. You reviewed how RAG integrates external knowledge sources to deliver accurate and context-rich responses. Additionally, you gained an overview of Copilot Studio, learning how it automates RAG workflows and simplifies tasks such as data integration and skill customization. By logging into Copilot Studio, you became familiar with its interface, preparing you to leverage its capabilities for building effective RAG solutions.
