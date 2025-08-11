@@ -98,13 +98,46 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
      ![](../media/gs-7.png)
 
-     >**Note:** If you see the Action Required dialog box, then select Ask Later option.
-     
-1. If you see the pop-up **Stay Signed in?**, click No.
+1. If an **Action required** pop-up window appears, click on **Next**.
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the Lab.
+   ![Ask Later](../media/ask-later.png)
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
+1. On **Start by getting the app** page, click on **Next**.
+
+1. Click on **Next** twice.
+
+1. In **Android**, go to the Play Store, search for **Microsoft Authenticator,** and tap on **Install**.
+
+   ![Install](../media/mobile.jpg)
+
+   >Note: For **iOS**, open the App Store and repeat the steps.
+
+   >Note: Skip If already installed.
+   
+1. Open the app and click on **Scan a QR code**.
+
+1. Scan the **QR code (1)** visible on the screen and click on **Next (2)**.
+
+   ![QR code](../media/demo001.png)
+
+1. Enter the digit displayed on the screen in the Authenticator app on mobile and tap on **Yes**.
+1. Once the notification is approved, click on **Next (1)**.
+
+   ![Approved](../media/demo002.png)
+
+1. Click on **Done**.
+1. If prompted to stay signed in, you can click **"Yes."**
+
+1. Tap on **Finish** in the mobile device.
+
+   >NOTE: While logging in again, enter the digits displayed on the screen in the **Authenticator app** and click on Yes.
+
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
+
+1. You can use the **Previous (1)** and **Next (2)** buttons to navigate through the lab guide.
+
+   ![](../media/lc-image(3).png)
+
 
 
 ## Creating Environment in Power Platform
@@ -139,13 +172,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    - **Name**: provide as **odl_user_<inject key="DeploymentID" enableCopy="false" />_env** **(1)**.
 
-   - **Get new features early**: Toggle this option to **Yes (2)**.
+   - **Get new features early**: Toggle this option to **No (2)**.
 
-   - **Type**: Select **Production (3)** from dropdown.
+   - **Type**: Select **Developer (3)** from dropdown.
 
    - **Add a Dataverse data store**: Toggle this option to **Yes (4)**.
 
-     ![alt text](image-6.png)
+     ![](../media/image-6.png)
 
 1. In the next pane, click on **+ Select** under **Security group**.
 
