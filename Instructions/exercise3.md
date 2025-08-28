@@ -62,6 +62,8 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/E3T2S51.png)
 
+   >**Note :** If **User Says a Phrase** is not displayed and **The Agent Chooses** appears instead, skip this step and proceed to the next one.
+
 1. Now its time add a **Genrative answers** node. To do that click on **+** in the design pane.
 
 1. Now select **Advanced (1)** from the menu and click on **Genrative answers (2)**.
@@ -147,3 +149,4 @@ In this task, you will test the RAG pipeline in Copilot Studio. You will evaluat
 In this exercise, you integrated AI Search with Copilot Studio to enhance your AI-powered workflows. You created an agent, improved query processing with custom topics, and tested and optimized the Retrieval-Augmented Generation (RAG) pipeline. This hands-on experience helped you use AI Search to better manage and retrieve information from various data sources, making your applications smarter and more efficient.
 
 ### You have successfully completed this Exercise!
+
