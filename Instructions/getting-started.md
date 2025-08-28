@@ -180,17 +180,9 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
      ![](../media/image-6.png)
 
-1. In the next pane, click on **+ Select** under **Security group**.
-
-   ![alt text](image-7.png)
-
-1. In the **Edit security group** pane, choose **None** option and click on **Done**.
-
-   ![alt text](image-8.png)
-
 1. Once configurations are done, click on **Save**.
 
-   ![alt text](image-9.png)
+      ![](../media/getstart1.png)
 
 1. Now the environment creation will start, please wait till the **State** changes from **Preparing** to **Ready**.
 
@@ -208,3 +200,4 @@ Now, click on the **Next** from lower right corner to move on next page.
 ![](../media/gs-5.png)
 
 ## Happy Learning!!
+
