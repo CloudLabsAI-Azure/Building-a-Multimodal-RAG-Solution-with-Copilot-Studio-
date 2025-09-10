@@ -64,8 +64,6 @@ In this task, you will log in to Copilot Studio.
 
    ![](../media/pp-13.png)
 
-   > If you are seeing an option to **Start free trial** instead of Get Started, please go ahead and start free trial and continue with the lab.
-
 1. If the **Welcome to Copilot Studio** prompt appears, click **Skip**.
  
 1. Once you are inside **Copilot Studio** you will be in the home page. 

@@ -160,27 +160,21 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    ![](/media/media/gs-4.png)
 
-1. You have now successfully logged in to the Power Apps portal. Keep the portal open, as you will be using it later in the lab.
+1. You have now successfully logged in to the Power Apps portal.
 
    ![](/media/media/gs-5.png)
 
-1. Inside power apps portal, select **Tables (1)** from the left menu and click on **Create a database (2)**.
-
-   ![](/media/media/ex3img71.png)
-
-   >**Note:** If you are not able to see **Create Database** option and you are able to see some tables already, please continue from **Step 3**.
-
-1. In the new pane for creating New Database, click on **Create my Database**.
-
-   ![](/media/media/ex3img72up.png)
-
-1. Once done, click on **Create with Excel or .CSV file**.
+1. Once done, select **tables** from the left menu and click on **Create with Excel or .CSV file**.
 
    ![](/media/media/ex3img73.png)
 
 1. In the pop up window to create a environment, Click on **Create**. This will create a new power platform developer environment.
 
    ![](/media/media/ex3img74.png)
+
+   > **Note:** It may take a while, if any error occured, please click on create once again to make sure a developer environment is created.
+
+   > You are signing up through the Power Apps portal to assign the Power Apps Developer Plan to the user, ensuring a smooth environment creation process.
 
 ## Support Contact
 
