@@ -138,7 +138,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. In the JumpVM, click on **Microsoft Edge** shortcut of Microsoft Edge browser which is created on desktop.
 
-   ![](/media/media/gs-1.png)
+   ![](../media/media/gs-1.png)
 
 1. Open a new browser tab and navigate to [Power Apps](https://make.powerapps.com/) portal.
 
@@ -146,19 +146,19 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    - Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-     ![](/media/media/gs-2.png)
+     ![](../media/media/gs-2.png)
 
 1. Now, enter the following password and click on **Sign in**.
 
    - Password: <inject key="AzureAdUserPassword"></inject>
 
-     ![](/media/media/gs-3.png)
+     ![](../media/media/gs-3.png)
 
      >**Note:** If you see the Action Required dialog box, then select Ask Later option.
      
 1. If you see the pop-up **Stay Signed in?**, click No.
 
-   ![](/media/media/gs-4.png)
+   ![](../media/media/gs-4.png)
 
 1. You have now successfully logged in to the Power Apps portal.
 
@@ -166,11 +166,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. Once done, select **tables** from the left menu and click on **Create with Excel or .CSV file**.
 
-   ![](/media/media/ex3img73.png)
+   ![](../media/media/ex3img73.png)
 
 1. In the pop up window to create a environment, Click on **Create**. This will create a new power platform developer environment.
 
-   ![](/media/media/ex3img74.png)
+   ![](../media/media/ex3img74.png)
 
    > **Note:** It may take a while, if any error occured, please click on create once again to make sure a developer environment is created.
 
@@ -188,4 +188,5 @@ Now, click on the **Next** from lower right corner to move on next page.
 ![](../media/gs-5.png)
 
 ## Happy Learning!!
+
 
