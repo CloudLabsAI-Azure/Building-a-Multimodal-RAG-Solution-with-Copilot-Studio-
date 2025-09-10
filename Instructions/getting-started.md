@@ -172,7 +172,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    ![](../media/media/ex3img74.png)
 
-   > **Note:** It may take a while, if any error occured, please click on create once again to make sure a developer environment is created.
+   > **Note:** The environment creation process may take some time. If an error occurs, please click Create again to ensure the developer environment is provisioned. If the issue persists, kindly reach out so that an administrator can create the environment on your behalf, allowing you to continue with the lab.
 
    > You are signing up through the Power Apps portal to assign the Power Apps Developer Plan to the user, ensuring a smooth environment creation process.
 
