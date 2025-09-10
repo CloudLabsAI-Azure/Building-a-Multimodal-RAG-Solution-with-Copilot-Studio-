@@ -134,59 +134,53 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
 
-1. You can use the **Previous (1)** and **Next (2)** buttons to navigate through the lab guide.
+## Let's Get Started with Power Apps Portal
 
-   ![](../media/lc-image(3).png)
+1. In the JumpVM, click on **Microsoft Edge** shortcut of Microsoft Edge browser which is created on desktop.
 
+   ![](/media/media/gs-1.png)
 
+1. Open a new browser tab and navigate to [Power Apps](https://make.powerapps.com/) portal.
 
-## Creating Environment in Power Platform
-
-1. From your browser, navigate to **Power Platform Admin Center** using this link [Power Platform](https://admin.powerplatform.microsoft.com/)
-
-1. If the **Sign in** page is prompted, use the provided credentials to sign in to Power Platform and click **Next**.
+1. On the **Sign into Microsoft** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
 
    - Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-     ![alt text](image.png)
+     ![](/media/media/gs-2.png)
 
 1. Now, enter the following password and click on **Sign in**.
 
    - Password: <inject key="AzureAdUserPassword"></inject>
 
-     ![alt text](image-1.png)
-   
-1. On the **Stay signed in** pane, click on **No**.
+     ![](/media/media/gs-3.png)
 
-   ![alt text](image-2.png)
+     >**Note:** If you see the Action Required dialog box, then select Ask Later option.
+     
+1. If you see the pop-up **Stay Signed in?**, click No.
 
-1. Once signed in, toggle **Try the new admin center** button to use new experience.
+   ![](/media/media/gs-4.png)
 
-   ![alt text](image-3.png)
+1. You have now successfully logged in to the Power Apps portal. Keep the portal open, as you will be using it later in the lab.
 
-1. Once you are in the **Power Platform Admin center** page, select **Manage (1)** from left menu and click on **+ New (2)**, to create a new environment.
+   ![](/media/media/gs-5.png)
 
-   ![alt text](image-5.png)
+1. Inside power apps portal, select **Tables (1)** from the left menu and click on **Create a database (2)**.
 
-1. In the **New environment** page, provide the following details and click on **Next (5)** :
+   ![](/media/media/ex3img71.png)
 
-   - **Name**: provide as **odl_user_<inject key="DeploymentID" enableCopy="false" />_env** **(1)**.
+   >**Note:** If you are not able to see **Create Database** option and you are able to see some tables already, please continue from **Step 3**.
 
-   - **Get new features early**: Toggle this option to **No (2)**.
+1. In the new pane for creating New Database, click on **Create my Database**.
 
-   - **Type**: Select **Developer (3)** from dropdown.
+   ![](/media/media/ex3img72up.png)
 
-   - **Add a Dataverse data store**: Toggle this option to **Yes (4)**.
+1. Once done, click on **Create with Excel or .CSV file**.
 
-     ![](../media/image-6.png)
+   ![](/media/media/ex3img73.png)
 
-1. Once configurations are done, click on **Save**.
+1. In the pop up window to create a environment, Click on **Create**. This will create a new power platform developer environment.
 
-      ![](../media/getstart1.png)
-
-1. Now the environment creation will start, please wait till the **State** changes from **Preparing** to **Ready**.
-
-   ![alt text](image-10.png)
+   ![](/media/media/ex3img74.png)
 
 ## Support Contact
 
