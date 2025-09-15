@@ -72,6 +72,8 @@ In this task, you will log in to Copilot Studio.
 
 1. Switch the new **odl_user_<inject key="DeploymentID" enableCopy="false" />_env** from the top right of the browser window.
 
+   ![](../media/image-updatedcp.jpg)
+
    ![](../media/Env-switch.png)
 
 ## Summary

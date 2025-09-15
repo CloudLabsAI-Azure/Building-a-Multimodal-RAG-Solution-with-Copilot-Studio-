@@ -176,6 +176,8 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    > You are signing up through the Power Apps portal to assign the Power Apps Developer Plan to the user, ensuring a smooth environment creation process.
 
+1. Once done, you can close the Power Apps window and move to the further exercises.
+
 ## Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.Learner Support Contacts:
