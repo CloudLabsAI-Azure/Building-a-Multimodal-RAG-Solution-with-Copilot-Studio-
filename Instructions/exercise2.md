@@ -70,6 +70,8 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
      ![](../media/ex4img5.png)
 
+     >**Note:** If the **Add vector search to this search resource** is grayed out, please continue further without checking the box.
+
 1. On the Data management pane, keep everything as default and click on **Next**.
 
    ![](../media/ex2img8.png)
@@ -106,3 +108,4 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 In this exercise, you have navigated to Azure AI Studio and added a data source by connecting Blob Storage to the Chat Playground. You utilized the GPT-4 Turbo and text embedding models to analyze images, text, and tables, generating vectorized indexes. These indexes were then created in the Azure AI Search service, and you reviewed them to confirm the proper ingestion and indexing of the data.
 
 ### You have successfully completed this exercise!
+
