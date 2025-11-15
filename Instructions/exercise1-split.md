@@ -138,6 +138,6 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 ## Summary
 
-In this exercise, you used **Azure AI Studio** to connect a Blob Storage container as a data source within the Chat Playground. Leveraging **GPT-4 Turbo** along with **text embedding models**, you analyzed various content types, including images, text, and tables, to generate **vectorized indexes**. These indexes were subsequently stored in **Azure AI Search**, where you reviewed them to ensure the data was correctly ingested and indexed.
+In this exercise, you used **Azure AI Studio** to connect a Blob Storage container as a data source within the Chat Playground. Leveraging **GPT-4o** along with **text embedding models**, you analyzed various content types, including images, text, and tables, to generate **vectorized indexes**. These indexes were subsequently stored in **Azure AI Search**, where you reviewed them to ensure the data was correctly ingested and indexed.
 
 ### You have successfully completed the lab!
