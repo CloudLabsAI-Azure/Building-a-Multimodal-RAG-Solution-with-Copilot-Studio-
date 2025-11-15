@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this exercise, you will learn how to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4 Turbo and text embedding models. The exercise involves connecting a Blob Storage to Azure AI Studio, where various data formats (text, images, and tables) have been uploaded. You will use these files to create vectorized indexes, which will be generated using advanced AI models. After that, you will navigate to Azure AI Search to review the creation and structure of these indexes, ensuring that the data has been successfully ingested and preprocessed.
+In this exercise, you will learn how to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4o and text embedding models. The exercise involves connecting a Blob Storage to Azure AI Studio, where various data formats (text, images, and tables) have been uploaded. You will use these files to create vectorized indexes, which will be generated using advanced AI models. After that, you will navigate to Azure AI Search to review the creation and structure of these indexes, ensuring that the data has been successfully ingested and preprocessed.
 
 ## Objectives
 
@@ -50,7 +50,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/21052025(5).png)
 
-   > **gpt-4:** GPT-4 Turbo is a powerful variant of the GPT-4 model with enhanced capabilities for both text and image analysis. It can process and understand images alongside text, allowing for tasks like image captioning, object recognition, and visual question answering, making it ideal for multimodal applications.
+   > **gpt-4o:** GPT-4o is an advanced multimodal model designed to seamlessly handle both text and image inputs with high accuracy and efficiency. It delivers faster responses, improved reasoning, and enhanced visual understanding capabilities, supporting tasks such as image analysis, caption generation, object detection, and complex multimodal interactions. Its balanced performance and versatility make it ideal for a wide range of real-world applications.
 
    > **text-embedding-ada-002:** A text embedding model converts text into a numerical representation (vector), capturing the semantic meaning of the content. These embeddings allow for efficient similarity searches and can be used to compare, cluster, or retrieve relevant information from large text datasets.
 
