@@ -42,11 +42,11 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/21052025(3).png)
 
-1. On the Azure OpenAI page, click on **Explore Azure AI Foundry portal** to navigate to AI Foundry, where you will be ingesting your data.
+1. On the Azure OpenAI page, click on **Explore Foundry portal** to navigate to AI Foundry, where you will be ingesting your data.
 
    ![](../media/16062025(1).png)
 
-1. Once you're inside **Azure AI Foundry**, go to the **Shared resources** section and click on **Deployments (1)** to view the deployed models under **Model Deployments (2)**.
+1. Once you're inside **Microsoft Foundry**, go to the **Shared resources** section and click on **Deployments (1)** to view the deployed models under **Model Deployments (2)**.
 
    ![](../media/21052025(5).png)
 
@@ -54,7 +54,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    > **text-embedding-ada-002:** A text embedding model converts text into a numerical representation (vector), capturing the semantic meaning of the content. These embeddings allow for efficient similarity searches and can be used to compare, cluster, or retrieve relevant information from large text datasets.
 
-1. In **Azure AI Foundry**, navigate to the chat playgrounds by selecting the **Chat** option from the left-hand menu.
+1. In **Microsoft Foundry**, navigate to the chat playgrounds by selecting the **Chat** option from the left-hand menu.
 
    ![](../media/21052025(6).png)
 
@@ -100,7 +100,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    ![](../media/21052025(13).png)
 
-1. Once the ingestion is complete, navigate back to the Azure portal. From the list of resources in the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** AI search.
+1. Once the ingestion is complete, navigate back to the Azure portal. From the list of resources in the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** search service.
 
    ![](../media/21052025(14).png)
 
@@ -112,7 +112,7 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 1. Now the data has been ingested, and the index has been created successfully.
 
-1. Now navigate back to **Chat Playground (1)** in Azure AI Foundry Portal, try out these prompts in the **Chat panel (2)** to verify the working of Retrieval Augmented Generation (RAG).
+1. Now navigate back to **Chat Playground (1)** in Foundry Portal, try out these prompts in the **Chat panel (2)** to verify the working of Retrieval Augmented Generation (RAG).
 
    - `What happens to time when an object moves close to the speed of light?`
 
