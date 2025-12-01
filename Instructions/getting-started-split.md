@@ -84,25 +84,24 @@ To adjust the zoom level for the environment page, click the **A↕: 100%** icon
 
 1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
 
-   - Email/Username: <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-     ![](../media/gs-6.png)
+     ![](../media/sign-in-page.png)
 
 1. Now, enter the following password and click on **Sign in**.
 
-   - Password: <inject key="AzureAdUserPassword"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-     ![](../media/gs-7.png)
+     ![](../media/tap-password.png)
 
-     >**Note:** If you see the Action Required dialog box, then select Ask Later option.
      
 1. If you see the pop-up **Stay Signed in?**, click **No**.
 
-   ![](../media/gs1212.png)
+   ![](../media/Sign-in-no.png)
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe later** to skip the tour.
    
-   ![](../media/gs1313.png)
+   ![](../media/cancel-tour.png)
 
 ## Support Contact
 
