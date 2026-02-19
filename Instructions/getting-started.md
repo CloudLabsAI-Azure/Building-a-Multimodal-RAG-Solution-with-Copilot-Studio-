@@ -82,101 +82,165 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 ## Let's Get Started with Azure Portal
 
-1. In the JumpVM, click on **Azure portal** shortcut of Microsoft Edge browser which is created on desktop.
+1. In the JumpVM, click on **Microsoft Edge** browser which is created on desktop.
 
-   ![](../media/gs-8.png)
+   ![](../media/zgr-gt.png)
 
-1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
+1. Open a new browser tab and navigate to the Power Apps portal using the link below:
 
-   - Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-     ![](../media/gs-6.png)
-
-1. Now, enter the following password and click on **Sign in**.
-
-   - Password: <inject key="AzureAdUserPassword"></inject>
-
-     ![](../media/gs-7.png)
-
-1. If an **Action required** pop-up window appears, click on **Next**.
-
-   ![Ask Later](../media/ask-later.png)
-
-1. On **Start by getting the app** page, click on **Next**.
-
-1. Click on **Next** twice.
-
-1. In **Android**, go to the Play Store, search for **Microsoft Authenticator,** and tap on **Install**.
-
-   ![Install](../media/mobile.jpg)
-
-   >Note: For **iOS**, open the App Store and repeat the steps.
-
-   >Note: Skip If already installed.
-   
-1. Open the app and click on **Scan a QR code**.
-
-1. Scan the **QR code (1)** visible on the screen and click on **Next (2)**.
-
-   ![QR code](../media/demo001.png)
-
-1. Enter the digit displayed on the screen in the Authenticator app on mobile and tap on **Yes**.
-1. Once the notification is approved, click on **Next (1)**.
-
-   ![Approved](../media/demo002.png)
-
-1. Click on **Done**.
-1. If prompted to stay signed in, you can click **"Yes."**
-
-1. Tap on **Finish** in the mobile device.
-
-   >NOTE: While logging in again, enter the digits displayed on the screen in the **Authenticator app** and click on Yes.
-
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
-
-## Let's Get Started with Power Apps Portal
-
-1. In the JumpVM, click on **Microsoft Edge** shortcut of Microsoft Edge browser which is created on desktop.
-
-   ![](../media/media/gs-1.png)
-
-1. Open a new browser tab and navigate to [Power Apps](https://make.powerapps.com/) portal.
+   ```
+   https://make.powerapps.com/
+   ```
 
 1. On the **Sign into Microsoft** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
 
-   - Email/Username: <inject key="AzureAdUserEmail"></inject>
+   - Email/Username: **<inject key="AzureAdUserEmail"></inject>**
 
-     ![](../media/media/gs-2.png)
+     ![](../media/gs-lab3-g2.png)
 
 1. Now, enter the following password and click on **Sign in**.
 
-   - Password: <inject key="AzureAdUserPassword"></inject>
+   - Password: **<inject key="AzureAdUserPassword"></inject>**
 
-     ![](../media/media/gs-3.png)
+     ![](../media/gs-lab3-g3.png)
 
-     >**Note:** If you see the Action Required dialog box, then select Ask Later option.
+     > **Note:** If you see the Action Required dialog box, then select **Ask Later** option.
      
-1. If you see the pop-up **Stay Signed in?**, click No.
+1. If you see the pop-up **Stay Signed in?**, click **No**.
 
-   ![](../media/media/gs-4.png)
+   ![](../media/gs-4.png)
 
-1. You have now successfully logged in to the Power Apps portal.
+1. If the **Welcome to Power Apps** pop-up appears, leave the default country/region selection and click **Get started**.
 
-   ![](/media/media/gs-5.png)
+   ![](../media/gs-travel-g1.png)
 
-1. Once done, select **tables** from the left menu and click on **Create with Excel or .CSV file**.
+1. You have now successfully logged in to the Power Apps portal. Keep the portal open.
 
-   ![](../media/media/ex3img73.png)
+   ![](../media/gs-5.png)
 
-1. In the pop up window to create a environment, Click on **Create**. This will create a new power platform developer environment.
+   > **Note:** We are signing in to the Power Apps portal because it automatically assigns a Developer license, which is required to create and use a Developer environment in the next steps.
 
-   ![](../media/media/ex3img74.png)
+1. Open a new browser tab, and then navigate to the Power Platform admin center.
 
-   > **Note:** The environment creation process may take some time. If an error occurs, please click Create again to ensure the developer environment is provisioned. If the issue persists, kindly reach out so that an administrator can create the environment on your behalf, allowing you to continue with the lab.
+   ```
+   https://admin.powerplatform.microsoft.com
+   ```
 
-   > You are signing up through the Power Apps portal to assign the Power Apps Developer Plan to the user, ensuring a smooth environment creation process.
+1. In the **Power Platform admin center**, select **Manage** from the left navigation pane.
 
-1. Once done, you can close the Power Apps window and move to the further exercises.
+   ![](../media/nd-d2-cor-g-1.png)
+
+1. In the Power Platform admin center, select **Environments (1)** from the left navigation pane, and then choose **New (2)** to create a new environment.
+
+   ![](../media/d2-coor-gs-g2.png)
+
+   > **Note:** If the **New** environment page does not load, refresh the browser and try again.
+
+1. In the **New environment** pane, configure the environment with the following settings, and then select **Next (4)**:
+
+   - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (1)** field.
+   - Set **Get new features early (2)** to **Yes**.
+   - Select **Developer (3)** from the **Type** dropdown.
+
+      ![](../media/d2-coor-gs-g3.png)
+
+1. In the **Add Dataverse** pane, leave all settings as default, and then select **Save**.
+
+   ![](../media/d2-coor-gs-g4.png)
+
+   > **Environment Foundation:** This step creates the foundational environment that will support your agents with company-specific data and knowledge sources.
+
+   > **Note:** Environment provisioning may take 10–15 minutes to complete. Wait until the status shows as ready before proceeding.
+
+   > **Note:** If you see an error stating that the environment list cannot be displayed, this is expected while the environment is being created in the background. After 10–15 minutes, refresh the browser and the environment should appear.
+
+1. In the power **platform admin center**, select **Manage** from left menu and click on the environmnet with the name, ODL_User <inject key="Deployment ID" enableCopy="false"></inject>'s Environment.
+
+   ![](../media/uppowadminimg1.png)
+
+1. In the environmnet page, click on **See all** under **S2S apps**.
+
+   ![](../media/uppowadminimg2.png)
+
+1. In the next pane, click on **+ New app user**.
+
+   ![](../media/uppowadminimg3.png)
+
+1. In the create a new app user pane, under **App**, click on **+ Add an app**.
+
+   ![](../media/uppowadminimg4.png)
+
+1. From the list of apps, search for `https://cloudlabssandbox.onmicrosoft.com/cloudlabs.ai/` and select it.
+
+   ![](../media/uppowadminimg5.png)
+
+1. Once done, under **Business unit** search for **org** and select the only business unit that comes in the list.
+
+   ![](../media/uppowadminimg6.png)
+
+1. Beside **Security roles** click on **Edit** icon.
+
+   ![](../media/uppowadminimg9.png)
+
+1. From the list of roles, search and select **System Administrator** and click on **Save**.
+
+   ![](../media/uppowadminimg10.png)
+
+1. In the pop-up window, select **save**.
+
+   ![](../media/uppowadminimg11.png)
+
+1. Review all the details and click on **Create**.
+
+   ![](../media/uppowadminimg12.png)
+
+1. Navigate to **Microsoft Copilot Studio** by opening a new browser tab and using the link below:
+
+   ```
+   https://copilotstudio.microsoft.com
+   ```
+
+1. On the **Welcome to Microsoft Copilot Studio** screen, keep the default **country/region** selection and click **Get Started** to continue.
+
+   ![](../media/gs-travel-g2.png)
+
+1. If the **Welcome to Copilot Studio!** pop-up appears, click **Skip** to continue to the main dashboard.
+
+   ![](../media/gs-travel-g3.png)
+
+1. If you are directly taken to the **agent creation** screen, click the **ellipsis (1)** icon beside the **Create** button, then select **Cancel agent creation (2)** to return to the main dashboard.
+
+   ![](../media/gs-travel-g4.png)
+
+1. In Copilot Studio, open the environment picker **(1)**, expand **Supported environments (2)**, and select **ODL_User <inject key="Deployment ID" enableCopy="false"></inject>'s Environment (3)** to switch.
+
+   ![](../media/ex1-travel-g6.png)
+
+   > If you are not able to see the environment under **Supported environments**, follow the below steps.
+
+   ![](../media/cor2-gs-g4.png)
+
+   1. In the **Power Platform admin center**, select **Environments** from the left navigation pane, and then verify that **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** is listed.
+
+      ![](../media/nd-d2-cor-g-4.png)
+   
+   1. On the **ODL_User 22<inject key="DeploymentID" enableCopy="false"></inject>'s Environment** details page, copy the **Environment ID**.
+
+      ![](../media/nd-d2-cor-g-5.png)
+      
+   1. Open a **new browser tab**, and paste the copied **Environment ID** at the end of the following URL to verify access:
+
+      ```
+      https://copilotstudio.microsoft.com/environments/(Environment ID)
+      ```
+
+      ![](../media/cor2-gs-g6.png)
+
+      > **Note:** Replace **(Environment ID)** with the ID you copied in the previous step.
+      
+   1. You will be navigated to the **Copilot Studio** portal. Verify that **ODL_User <inject key="Deployment ID" enableCopy="false"></inject>’s Environment** is visible and selected under **Supported environments**.
+
+      ![](../media/cor2-gs-g7.png)
 
 ## Support Contact
 
@@ -190,5 +254,3 @@ Now, click on the **Next** from lower right corner to move on next page.
 ![](../media/gs-5.png)
 
 ## Happy Learning!!
-
-
