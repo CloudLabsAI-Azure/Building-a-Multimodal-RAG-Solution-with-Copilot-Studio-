@@ -251,6 +251,4 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 
 Now, click on the **Next** from lower right corner to move on next page.
 
-![](../media/gs-5.png)
-
 ## Happy Learning!!
