@@ -20,21 +20,17 @@ You will be able to complete the following tasks:
 
 In this task, you will create an agent in Copilot Studio. The agent will leverage AI capabilities to process queries and generate responses. 
 
-1. Navigate back to the **Copilot Studio** tab, as you have already logged in, select **Create (1)** from the left menu and click on **New agent (2)** option to create a new AI agent.
+1. Navigate back to the **Copilot Studio** tab, as you have already logged in, select **Agents** from left menu and click on **+ Create blank agent**.
 
-   ![](../media/cop2.png)
+   ![](../media/nimg10.png)
 
-1. Inside the **Agent** pane click on **Skip to configure** as we will be configuring this further in this exercise.
+1. In the next pane, wait for few minutes the agent provisioning fully completes, once the edit button is enabled, click on **edit** to add the details to agent.
 
-   ![](../media/ex3img2.png)
+   ![](../media/nimg11.png)
 
-1. In the next pane, provide the **Name** as **Physics Agent** and click on Create.
+1. In the edit pane, add the **Name** as `Physics Agent` and click on **Save**.
 
-   ![](../media/ex4img6.png)
-
-1. Now you have successfully created a agent. You will be configuring the agent in the further tasks. Ensure the **Orchestration** is **Disabled**.
-
-   ![](../media/E3T1S4.png)
+   ![](../media/nimg12.png)
 
 ### Task 2: Enhancing Query Processing with Custom Topics 
 
@@ -60,15 +56,39 @@ In this task, you will create custom topics and integrate them with AI Search as
 
 1. Now you will be navigated to design pane, where you can design the workflow of your topic.
 
-   ![](../media/E3T2S51.png)
+1. In the **Trigger** node, for the description add the below content.
 
-   >**Note :** If **User Says a Phrase** is not displayed and **The Agent Chooses** appears instead, skip this step and proceed to the next one.
+   ```
+   This topic retrieves physics concepts from the configured knowledge source and provides a properly grounded response to the user’s query.
+   ```
 
-1. Now its time add a **Genrative answers** node. To do that click on **+** in the design pane.
+   ![](../media/nimg13.png)
+
+1. Click on **+** to add a new node, from the list select **Ask a question** node.
+
+   ![](../media/nimg14.png)
+
+1. In the **Question** node add the below question and click on **>** under Identify.
+
+   ```
+   Hello! I am here to assist you with physics concepts. Please let me know which concepts you would like to know?
+   ```
+
+   ![](../media/nimg15.png)
+
+1. Click on the **>** expand options again. From the options, select **User's entire response** to save the user complete question as input.
+
+   ![](../media/nimg16.png)
+
+1. Now its time to add a **Genrative answers** node. To do that click on **+** in the design pane.
 
 1. Now select **Advanced (1)** from the menu and click on **Genrative answers (2)**.
 
    ![](../media/ex3img8.png)
+
+1. In the **Create generative answers** node, click on the **...** to select the variable, and select the available variable from the list.
+
+   ![](../media/nimg18.png)
 
 1. Now the **Create generative answers** component is created, click on **Edit** under **Data sources** to add your knowlegde base.
 
@@ -102,17 +122,16 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/phyup11.png)
 
-1. Scroll up in the **Creative Generative Answers properties** and close it, in the design pane, under **Create generative answers** click on **Enter or select a value** and enter **Topic.Var1**, which will pass the user's entire response to this node. 
-
-   ![](../media/E3T2S22.png)
 
 1. Once after setup, your workflow will look similar to this.
 
-   ![](../media/E3T2S23.png)
+   ![](../media/nimg20.png)
 
 1. Once after adding the input, click on **Save** and provide the name as **phy-topic** and save it.
 
    ![](../media/ex3img20updated.png)
+
+   ![](../media/nimg21.png)
 
 1. Now you have successfully created a agent with your own data. You will test and verify the working of the agent in further task.
 
@@ -124,11 +143,9 @@ In this task, you will test the RAG pipeline in Copilot Studio. You will evaluat
   
    >**Note** : If you don't see the **Test your agent** option, click on **Test** in the top-right corner.
 
-1. In the **Test your agent** pane, use `hello, physics bot` to trigger your topic, it will respond to the prompt similar to: **Hello! I am here to assist you with physics concepts, problems, and research.**, then use the prompts given to explore your agent.
+1. In the **Test your agent** pane, use `hello, physics bot, i want to explore physics concepts` to trigger your topic, it will respond to the prompt similar to: **Hello! I am here to assist you with physics concepts. Please let me know which concepts you would like to know?**, then use the prompts given to explore your agent.
 
-   > **Note:** The responses from the agent may vary.
-
-   ![](../media/E3T3S2.png)
+   ![](../media/nimg22.png)
 
 1. We've crafted a collection of mind-blowing physics concepts as knwoledge base just for you! Dive in with these prompts, ask away, and unlock the mysteries: 
 

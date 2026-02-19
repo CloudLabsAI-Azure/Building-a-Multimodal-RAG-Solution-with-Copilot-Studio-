@@ -58,19 +58,25 @@ For this lab, you will focus on the Study Partner use case, where we crafted the
 
 In this task, you will log in to Copilot Studio.
 
-1. Navigate to **Copilot Studio**  in a new tab using this link: [copilot studio](https://go.microsoft.com/fwlink/p/?linkid=2252408&clcid=0x409&culture=en-us&country=us)
+1. Navigate to **Copilot Studio**  in a new tab by using the below link.
+
+   ```
+   https://copilotstudio.microsoft.com
+   ```
 
 1. On Welcome to Microsoft Copilot Studio page, Click on **Get Started**.
 
    ![](../media/pp-13.png)
 
 1. If the **Welcome to Copilot Studio** prompt appears, click **Skip**.
+
+   ![](../media/nimg9.png)
  
 1. Once you are inside **Copilot Studio** you will be in the home page. 
 
    ![](../media/ex1img3.png)
 
-1. Switch the new **odl_user_<inject key="DeploymentID" enableCopy="false" />_env** from the top right of the browser window.
+1. Switch the new **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** from the top right of the browser window.
 
    ![](../media/image-updatedcp.jpg)
 

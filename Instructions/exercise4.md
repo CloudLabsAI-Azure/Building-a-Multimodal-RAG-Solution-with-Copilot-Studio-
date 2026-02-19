@@ -30,6 +30,8 @@ In this task, you will integrate your RAG solution with a demo website, using it
 
    ![](../media/ex4img3.png)
 
+   ![](../media/nimg23.png)
+
 1. Once the authentication part is done, navigate to **Channels (1)** tab and check that many options are available to publish the agent, but in this lab we will be using **Demo webiste (2)** option, so click on that.
 
    ![](../media/E4T2S5.png)
@@ -61,13 +63,13 @@ In this task, you will integrate your RAG solution with a demo website, using it
 
 1. On **Publish this agent** pane, click on **Publish**.
 
-   ![](../media/ex4img13.png)
+   ![](../media/nimg24.png)
 
 1. Once it is published, open a new tab in the browser and use the URL copied o navigate to the **Demo Website**. You will see a pleasant user interface with our agent will be opened, which copilot handled for us.
 
-   ![](../media/ex4img14.png)
+   ![](../media/nimg26.png)
 
-   ![](../media/phyup10.png)
+   ![](../media/nimg27.png)
 
 <validation step="64e70b89-f882-4aa0-a5c4-056506a10a70" />
 
