@@ -1,26 +1,24 @@
 # Building a Multimodal RAG Solution with Copilot Studio
 
-### Overall Estimated Duration : 4 Hours
+### Overall Estimated Duration: 4 Hours
 
 ## Overview
 
-This hands-on lab guides participants through building and automating a Retrieval-Augmented Generation (RAG) solution using Copilot Studio. Participants will explore how to ingest diverse data sources while leveraging AI models like text embeddings, language models, and generative AI capabilities. The lab will cover customizing topics, automating workflows. Additionally, participants will learn to publish the solution to custom channels as websites. 
+This hands-on lab guides you through building and automating a Retrieval-Augmented Generation (RAG) solution using Copilot Studio. You will explore how to ingest diverse data sources while leveraging AI models such as text embeddings, language models, and generative AI capabilities. The lab covers customizing topics and automating workflows. Additionally, you will publish the solution to custom channels, such as websites.
 
-## Objective
+## Objectives
 
-Learn to build and automate a Retrieval-Augmented Generation (RAG) solution using Copilot Studio, leveraging AI models like text embeddings, language models, and generative AI. By the end of this lab, you will get insights on these concepts:
+Learn to build and automate a Retrieval-Augmented Generation (RAG) solution using Copilot Studio, leveraging AI models like text embeddings, language models, and generative AI. By the end of this lab, you will get insights on:
 
-- **Introduction to Retrieval-Augmented Generation (RAG) Automation and Copilot Studio :** Understanding foundational concepts and practical applications of Retrieval-Augmented Generation (RAG).
+- **Introduction to Retrieval-Augmented Generation (RAG) Automation and Copilot Studio:** Understand foundational concepts and practical applications of Retrieval-Augmented Generation (RAG).
 
-- **Data Ingestion and Preprocessing :** Learn to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4 Turbo and text embedding models.
+- **Data Ingestion and Preprocessing:** Learn to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4 Turbo and text embedding models.
 
-- **Integrating AI Search with Copilot Studio :** Understand how to integrate AI Search with Copilot Studio to enhance your AI-powered workflows.
+- **Integrating AI Search with Copilot Studio:** Understand how to integrate AI Search with Copilot Studio to enhance your AI-powered workflows.
 
-- **Deployment and Publishing Options :** Learn integrating Retrieval-Augmented Generation (RAG) with custom platforms, with an emphasis on deploying the solution to a public demo website.
+- **Deployment and Publishing Options:** Learn how to integrate Retrieval-Augmented Generation (RAG) with custom platforms, with an emphasis on deploying the solution to a public demo website.
 
 ## Pre-requisites
-
-Participants should have the following prerequisites:
 
 - **Familiarity with Azure Resources:** Basic understanding of Azure services and the Azure portal for managing cloud resources.
 
@@ -30,7 +28,7 @@ Participants should have the following prerequisites:
 
 ## Architecture
 
-The architecture facilitates the seamless ingestion and retrieval of data for user interactions in Copilot Studio. Documents are stored in Azure Blob Storage, which serves as the source for data ingestion. Microsoft Foundry processes these documents using models from Azure AI Services via the chat playground. The processed data is indexed using AI Search, allowing efficient retrieval. Finally, Copilot Studio enables user interactions, including Q&A, by leveraging the indexed data for intuitive and responsive workflows.
+The architecture facilitates the seamless ingestion and retrieval of data for user interactions in Copilot Studio. Documents are stored in Azure Blob Storage, which serves as the source for data ingestion. Microsoft Foundry processes these documents using models from Azure AI Services through the chat playground. The processed data is indexed using AI Search, allowing efficient retrieval. Finally, Copilot Studio enables user interactions, including Q&A, by leveraging the indexed data for intuitive and responsive workflows.
 
 ## Architecture Diagram
 
@@ -50,7 +48,7 @@ The architecture for this lab involves several key components:
 
 ## Getting Started with Lab
 
-Welcome to Building a Multimodal RAG Solution with Copilot Studio Hands-On-Lab! , We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
+Welcome to the Building a Multimodal RAG Solution with Copilot Studio hands-on lab. This environment is prepared for you to explore and learn effectively. Let's begin by making the most of this experience.
 
 >**Note:** If a PowerShell window appears once the environment is active, please don't close it. Minimize it instead of closing it and proceed with the tasks.
 
@@ -80,7 +78,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 ## Let's Get Started with Azure Portal
 
-1. In the JumpVM, Double click on **Azure Portal** Shortcut to login to Azure.
+1. In the JumpVM, double-click on **Azure Portal** Shortcut to login to Azure.
 
      ![](../media/gs-8.png)
 
@@ -126,9 +124,9 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    ![](../media/gs-5.png)
 
-   > **Note:** We are signing in to the Power Apps portal because it automatically assigns a Developer license, which is required to create and use a Developer environment in the next steps.
+   > **Note:** You are signing in to the Power Apps portal because it automatically assigns a Developer license, which is required to create and use a Developer Power Platform environment in the next steps.
 
-1. Open a new browser tab, and then navigate to the Power Platform admin center.
+1. Open a new tab in your browser and navigate to the Power Platform admin center.
 
    ```
    https://admin.powerplatform.microsoft.com
@@ -142,8 +140,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    ![](../media/d2-coor-gs-g2.png)
 
-   > **Note:** If the **New** environment page does not load, refresh the browser and try again.
-
 1. In the **New environment** pane, configure the environment with the following settings, and then select **Next (3)**:
 
    - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (1)** field.
@@ -155,15 +151,17 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    ![](../media/d2-coor-gs-g4.png)
 
-1. Wait till the environmnet status, change from **preparing** to **ready**. Once done, please move forward with further exercises.
+1. Wait until the environment status changes from **Preparing** to **Ready**. Once done, please move forward with further exercises.
 
 ## Support Contact
 
-The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.Learner Support Contacts:
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
 
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Now, click on the **Next** from lower right corner to move on next page.
+Now, click **Next** in the lower-right corner to move to the next page.
 
 ## Happy Learning!!

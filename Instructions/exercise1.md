@@ -2,21 +2,21 @@
 
 ### Estimated Duration: 30 Minutes
 
-## Overview
+## Exercise Overview
 
-This exercise introduces the foundational concepts and practical applications of Retrieval-Augmented Generation (RAG) and the capabilities of Copilot Studio in automating intelligent workflows. By combining AI-driven generative models with external knowledge retrieval, participants will learn how to build scalable and dynamic RAG solutions tailored for real-world challenges.
+This exercise introduces the foundational concepts and practical applications of Retrieval-Augmented Generation (RAG) and the capabilities of Copilot Studio in automating intelligent workflows. By combining AI-driven generative models with external knowledge retrieval, you will learn how to build scalable and dynamic RAG solutions tailored for real-world challenges.
 
-## Objectives
+## Exercise Objectives
 
-You will be able to complete the following tasks:
+In this exercise, you will complete the following tasks:
 
-- Task 1 : Overview of RAG and Automation
+- Task 1: Overview of RAG and Automation
 
-- Task 2 : Setting Up an Environment for Copilot Studio
+- Task 2: Setting Up an Environment for Copilot Studio
 
-### Task 1: Overview of RAG and Automation
+### Task 1: Overview of RAG and Automation [Read-Only]
 
-In this task, you will explore the fundamentals of Retrieval-Augmented Generation (RAG) and its role in creating intelligent, context-aware AI solutions. you'll also set up Copilot Studio.
+In this task, you will explore the fundamentals of Retrieval-Augmented Generation (RAG) and its role in creating intelligent, context-aware AI solutions.
 
 #### Introduction to Retrieval-Augmented Generation (RAG)
 
@@ -42,7 +42,7 @@ Copilot Studio streamlines the process of building and automating RAG solutions 
 
 #### Real-World Use Cases
 
-To understand the versatility of RAG, let’s explore some key use cases across different industries:
+To understand the versatility of RAG, review the following key use cases across different industries:
 
 - **Customer Support:** RAG enhances customer service by providing accurate and context-specific responses. For instance, an AI assistant can use RAG to retrieve information from FAQs, user manuals, or internal knowledge bases to resolve customer queries quickly and efficiently, improving response quality and customer satisfaction.
 
@@ -52,19 +52,19 @@ To understand the versatility of RAG, let’s explore some key use cases across 
 
 - Study Partner: RAG can be used to enhance the learning experience for study partners by retrieving relevant study materials, practice questions, and academic resources from textbooks, research papers, or online databases. It can help study groups by providing instant answers to questions, summarizing complex topics, or offering additional resources, improving collaboration and efficiency in preparing for exams or assignments.
 
-For this lab, you will focus on the Study Partner use case, where we crafted the dataset with interesting physics topics that you can explore.
+In this lab, you will focus on the Study Partner use case, where the dataset has been crafted with engaging physics topics for you to explore.
 
 ### Task 2: Setting Up an Environment for Copilot Studio
 
 In this task, you will log in to Copilot Studio.
 
-1. Navigate to **Copilot Studio**  in a new tab by using the below link.
+1. Navigate to **Copilot Studio** in a new tab using the link below.
 
    ```
    https://copilotstudio.microsoft.com
    ```
 
-1. On Welcome to Microsoft Copilot Studio page, Click on **Get Started**.
+1. On Welcome to Microsoft Copilot Studio page, click **Get Started**.
 
    ![](../media/pp-13.png)
 
@@ -72,11 +72,11 @@ In this task, you will log in to Copilot Studio.
 
    ![](../media/nimg9.png)
  
-1. Once you are inside **Copilot Studio** you will be in the home page. 
+1. Once you are in Copilot Studio, you will be on the home page.
 
    ![](../media/ex1img3.png)
 
-1. Switch the new **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** from the top right of the browser window.
+1. Switch to the new **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** from the top right of the browser window.
 
    ![](../media/image-updatedcp.jpg)
 
@@ -85,5 +85,3 @@ In this task, you will log in to Copilot Studio.
 ## Summary
 
 In this exercise, you explored the fundamentals of Retrieval-Augmented Generation (RAG) and its role in enhancing AI workflows. You reviewed how RAG integrates external knowledge sources to deliver accurate and context-rich responses. Additionally, you gained an overview of Copilot Studio, learning how it automates RAG workflows and simplifies tasks such as data integration and skill customization. By logging into Copilot Studio, you became familiar with its interface, preparing you to leverage its capabilities for building effective RAG solutions.
-
-### You have successfully completed this Exercise!

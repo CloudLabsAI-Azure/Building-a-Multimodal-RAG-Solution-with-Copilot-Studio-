@@ -1,34 +1,34 @@
 # Exercise 3: Integrating AI Search with Copilot Studio 
 
-### Estimated Duration: 1 Hour 30 Minutes
+### Estimated Duration: 90 Minutes
 
-## Overview
+## Exercise Overview
 
 In this exercise, you will integrate AI Search with Copilot Studio to enhance your AI-powered workflows. You will create an agent, improve query processing with custom topics, and test and optimize the Retrieval-Augmented Generation (RAG) pipeline. This hands-on experience will help you use AI Search to better manage and retrieve information from various data sources, making your applications smarter and more efficient.
 
-## Objectives
+## Exercise Objectives
 
-You will be able to complete the following tasks:
+In this exercise, you will complete the following tasks:
 
-- Task 1 : Creating and Configuring an AI Agent
+- Task 1: Creating and Configuring an AI Agent
 
-- Task 2 : Enhancing Query Processing with Custom Topics 
+- Task 2: Enhancing Query Processing with Custom Topics 
 
-- Task 3 : Testing and Optimizing the RAG Pipeline
+- Task 3: Testing and Optimizing the RAG Pipeline
 
 ### Task 1: Creating and Configuring an AI Agent
 
 In this task, you will create an agent in Copilot Studio. The agent will leverage AI capabilities to process queries and generate responses. 
 
-1. Navigate back to the **Copilot Studio** tab, as you have already logged in, select **Agents** from left menu and click on **+ Create blank agent**.
+1. Navigate back to the **Copilot Studio** tab. Since you are already logged in, select Agents from the left menu, and then select **+ Create blank agent**.
 
    ![](../media/nimg10.png)
 
-1. In the next pane, wait for few minutes the agent provisioning fully completes, once the edit button is enabled, click on **edit** to add the details to agent.
+1. In the next pane, wait a few minutes until agent provisioning fully completes. Once the Edit button is enabled, select **Edit** to configure the agent details.
 
    ![](../media/nimg11.png)
 
-1. In the edit pane, add the **Name** as `Physics Agent` and click on **Save**.
+1. In the Edit pane, add the **Name** as `Physics Agent` and click on **Save**.
 
    ![](../media/nimg12.png)
 
@@ -48,7 +48,7 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/ex3img13.png)
 
-1. Navigate back to Copilot Studio, as you have created an agent, its time to add custom topics to it. In the **Agents** pane, under **Topics** tab, select **+ Add a topic (1)** and click on **From blank (2)** from the dropdown as we are creating a custom topic.
+1. Navigate back to Copilot Studio, as you have created an agent, it is now time to add custom topics to the agent. In the **Agents** pane, under **Topics** tab, select **+ Add a topic (1)** and click on **From blank (2)** from the dropdown.
 
    ![](../media/ex4img7.png)
 
@@ -80,9 +80,9 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/nimg16.png)
 
-1. Now its time to add a **Genrative answers** node. To do that click on **+** in the design pane.
+1. Now its time to add a **Generative answers** node. To do that click on **+** in the design pane.
 
-1. Now select **Advanced (1)** from the menu and click on **Genrative answers (2)**.
+1. Now select **Advanced (1)** from the menu and click on **Generative answers (2)**.
 
    ![](../media/ex3img8.png)
 
@@ -90,7 +90,7 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/nimg18.png)
 
-1. Now the **Create generative answers** component is created, click on **Edit** under **Data sources** to add your knowlegde base.
+1. The **Create generative answers** component has now been added. Select **Edit** under Data sources to configure the knowledge base.
 
    ![](../media/ex3img9.png)
 
@@ -114,11 +114,11 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/E3T2S19.png)
 
-1. Now the **Create generative answers** component is created, click on **Edit** under **Data sources** to add your knowlegde base.
+1. The **Create generative answers** component has now been added. Select **Edit** under Data sources to configure the knowledge base.
 
    ![](../media/ex3img9.png)
 
-1. In the same pane, under Knowledge sources, toggle **Search only selected sources (1)** button and select **Ai Search (2)** Knowledge base. Make sure that **Allow the AI to use its own general knowledge (preview) (3)** option is turned off.
+1. In the same pane, under Knowledge sources, toggle **Search only selected sources (1)** button and select **AI Search (2)** Knowledge base. Make sure that **Allow the AI to use its own general knowledge (preview) (3)** option is turned off.
 
    ![](../media/phyup11.png)
 
@@ -133,21 +133,21 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/nimg21.png)
 
-1. Now you have successfully created a agent with your own data. You will test and verify the working of the agent in further task.
+1. You have now successfully created an agent using your own data. You will test and verify the working of the agent in further task.
 
 ### Task 3: Testing and Optimizing the RAG Pipeline
 
 In this task, you will test the RAG pipeline in Copilot Studio. You will evaluate the effectiveness of the integration between AI Search and the agent, test its ability to handle queries, and optimize the pipeline to ensure fast, accurate, and context-aware responses.
 
-1. In the design pane, you will be able to see a chat area in the right as **Test your agent**.
+1. In the design pane, you will see the Test your agent chat area on the right.
   
-   >**Note** : If you don't see the **Test your agent** option, click on **Test** in the top-right corner.
+   >**Note** : If you do not see the **Test your agent** option, click on **Test** in the top-right corner.
 
-1. In the **Test your agent** pane, use `hello, physics bot, i want to explore physics concepts` to trigger your topic, it will respond to the prompt similar to: **Hello! I am here to assist you with physics concepts. Please let me know which concepts you would like to know?**, then use the prompts given to explore your agent.
+1. In the **Test your agent** pane, use `hello, physics bot, i want to explore physics concepts` to trigger your topic, the agent will respond with a message similar to: **Hello! I am here to assist you with physics concepts. Please let me know which concepts you would like to know?**, then use the prompts given to explore your agent.
 
    ![](../media/nimg22.png)
 
-1. We've crafted a collection of mind-blowing physics concepts as knwoledge base just for you! Dive in with these prompts, ask away, and unlock the mysteries: 
+1. A collection of physics concepts has been added to the knowledge base for testing purposes. Use the following sample prompts to test the agent:
 
    - `What happens to time when an object moves close to the speed of light?`
 
@@ -164,6 +164,3 @@ In this task, you will test the RAG pipeline in Copilot Studio. You will evaluat
 ## Summary
 
 In this exercise, you integrated AI Search with Copilot Studio to enhance your AI-powered workflows. You created an agent, improved query processing with custom topics, and tested and optimized the Retrieval-Augmented Generation (RAG) pipeline. This hands-on experience helped you use AI Search to better manage and retrieve information from various data sources, making your applications smarter and more efficient.
-
-### You have successfully completed this Exercise!
-
