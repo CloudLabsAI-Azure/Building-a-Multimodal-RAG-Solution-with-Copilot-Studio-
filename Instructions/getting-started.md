@@ -12,7 +12,7 @@ Learn to build and automate a Retrieval-Augmented Generation (RAG) solution usin
 
 - **Introduction to Retrieval-Augmented Generation (RAG) Automation and Copilot Studio:** Understand foundational concepts and practical applications of Retrieval-Augmented Generation (RAG).
 
-- **Data Ingestion and Preprocessing:** Learn to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4 Turbo and text embedding models.
+- **Data Ingestion and Preprocessing:** Learn to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4.1 and text embedding models.
 
 - **Integrating AI Search with Copilot Studio:** Understand how to integrate AI Search with Copilot Studio to enhance your AI-powered workflows.
 
@@ -28,7 +28,7 @@ Learn to build and automate a Retrieval-Augmented Generation (RAG) solution usin
 
 ## Architecture
 
-The architecture facilitates the seamless ingestion and retrieval of data for user interactions in Copilot Studio. Documents are stored in Azure Blob Storage, which serves as the source for data ingestion. Microsoft Foundry processes these documents using models from Azure AI Services through the chat playground. The processed data is indexed using AI Search, allowing efficient retrieval. Finally, Copilot Studio enables user interactions, including Q&A, by leveraging the indexed data for intuitive and responsive workflows.
+The architecture facilitates the seamless ingestion and retrieval of data for user interactions in Copilot Studio. Documents are stored in Azure Blob Storage, which serves as the source for data ingestion. Microsoft Foundry processes these documents using models from Azure AI Services. The processed data is indexed using AI Search, allowing efficient retrieval. Finally, Copilot Studio enables user interactions, including Q&A, by leveraging the indexed data for intuitive and responsive workflows.
 
 ## Architecture Diagram
 
@@ -165,3 +165,4 @@ Learner Support Contacts:
 Now, click **Next** in the lower-right corner to move to the next page.
 
 ## Happy Learning!!
+
