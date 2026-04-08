@@ -58,7 +58,7 @@ In this lab, you will focus on the Study Partner use case, where the dataset has
 
 In this task, you will log in to Copilot Studio.
 
-1. Navigate to **Copilot Studio** in a new tab using the link below.
+1. Open a new browser tab and navigate to **Copilot Studio** by pasting the link provided below into the address bar.
 
    ```
    https://copilotstudio.microsoft.com
@@ -85,3 +85,7 @@ In this task, you will log in to Copilot Studio.
 ## Summary
 
 In this exercise, you explored the fundamentals of Retrieval-Augmented Generation (RAG) and its role in enhancing AI workflows. You reviewed how RAG integrates external knowledge sources to deliver accurate and context-rich responses. Additionally, you gained an overview of Copilot Studio, learning how it automates RAG workflows and simplifies tasks such as data integration and skill customization. By logging into Copilot Studio, you became familiar with its interface, preparing you to leverage its capabilities for building effective RAG solutions.
+
+## You have successfully completed the lab. Now, click on **Next >>** from the lower right corner to proceed on to the next lab.
+
+![](../media/img-05.png)
