@@ -26,9 +26,11 @@ In this task, you will integrate your RAG solution with a demo website, using it
 
    ![](../media/ex4img2.png)
 
-1. Under **Authentication**, choose **No authentication (1)** option, as you are publishing the agent as a website. Click on **Save (2)**. **Close** settings from top right of the settings menu.
+1. Under **Authentication**, choose **No authentication (1)** option, as you are publishing the agent as a website. Click on **Save (2)**.
 
    ![](../media/ex4img3.png)
+
+1. On the **Save this configuration?** pop-up, select **Save**. After saving the changes **Close** settings from top right of the settings menu.
 
    ![](../media/nimg23.png)
 
@@ -36,13 +38,13 @@ In this task, you will integrate your RAG solution with a demo website, using it
 
    ![](../media/E4T2S5.png)
 
-   >Other Options:
+   > Other Options:
 
-    - **Teams:** Publishing your AI-powered agent in Microsoft Teams enables seamless integration with one of the most widely used collaboration platforms in businesses. By deploying the agent within Teams, employees or teams can interact with it directly within their workflows. This is useful for support bots, HR assistants, project management tools, and task automation scenarios., or task automation, where the agent can assist in real-time communication, meetings, or project channels. Teams bots can also use advanced features like adaptive cards and proactive messaging to keep users informed and engaged.
+   > - **Teams:** Publishing your AI-powered agent in Microsoft Teams enables seamless integration with one of the most widely used collaboration platforms in businesses. By deploying the agent within Teams, employees or teams can interact with it directly within their workflows. This is useful for support bots, HR assistants, project management tools, and task automation scenarios., or task automation, where the agent can assist in real-time communication, meetings, or project channels. Teams bots can also use advanced features like adaptive cards and proactive messaging to keep users informed and engaged.
 
-    - **Slack:** Slack is another popular team collaboration tool. By publishing your agent to Slack, you enable your team to integrate the AI agent directly into channels, direct messages, or workflows. Slack bots can automate tasks like setting reminders, providing data reports, answering FAQs, or assisting with specific workflows such as onboarding.
+   > - **Slack:** Slack is another popular team collaboration tool. By publishing your agent to Slack, you enable your team to integrate the AI agent directly into channels, direct messages, or workflows. Slack bots can automate tasks like setting reminders, providing data reports, answering FAQs, or assisting with specific workflows such as onboarding.
 
-    - You can explore more on these publishing options using this [Reference](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web)
+   > - You can explore more on these publishing options using this [Reference](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web)
 
 1. Once the **Demo Website** option is selected, a new pane will be opened from left. In that pane, providea friendly welcome message and a few conversation starters as follows:
 
@@ -53,7 +55,7 @@ In this task, you will integrate your RAG solution with a demo website, using it
       - `What is Friction?`
       - `Define Mass of Earth`
 
-   -  Use the **Copy (3)** button to copy the URL of the website, note it down safely and click on **Save (4)**.
+   -  Use the **Copy (3)** button to copy the URL of the website, note it down safely and click on **Save (4)**. Close the pane once saved.
 
       ![](../media/ex4img11.png)
 
@@ -70,6 +72,8 @@ In this task, you will integrate your RAG solution with a demo website, using it
    ![](../media/nimg26.png)
 
    ![](../media/nimg27.png)
+
+   >**Note:** The output may differ slightly from the screenshot depending on the current environment or updates.
 
 <validation step="64e70b89-f882-4aa0-a5c4-056506a10a70" />
 

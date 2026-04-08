@@ -26,7 +26,7 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    ![](../media/ex1-updated1.png)
 
-1. From the resource list, select **openai-<inject key="DeploymentID" enableCopy="false" />** AI Service.
+1. From the resource list, select **openai-<inject key="DeploymentID" enableCopy="false" />** OpenAI Service.
 
    ![](../media/ex1-updated2.png)
 
@@ -48,7 +48,7 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    ![](../media/uupimg16.png)
 
-   >If you are not able to see the setup menu, please click on **show setup** button to expand the setup menu.
+   > If you are not able to see the setup menu, please click on **show setup** button to expand the setup menu.
 
       ![](../media/uupimg10.png)
 
@@ -72,13 +72,13 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
      ![](../media/nimg4.png)
 
-1. On the Data management pane, keep everything as default and click on **Next**.
+1. On the **Data management** pane, keep everything as default and click on **Next**.
 
    ![](../media/nimg5.png)
 
-1. In the **Data connection** page, check the **API Key (1)**, click on **Next (2)** and click on **save and close**.
+1. In the **Data connection** page, check the **API key (1)**, click on **Next (2)** and click on **save and close**.
 
-   ![](../media/nimg6.png)
+   ![](../media/img-06.png)
 
    ![](../media/nimg7.png)
 
@@ -86,13 +86,13 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    ![](../media/nimg8.png)
 
-1. Once the ingestion is completed, navigate back to Azure portal and from the resource list of the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** AI search.
+1. Once the ingestion is completed, navigate back to **Azure portal** and from the resource list of the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** Search service.
 
    ![](../media/ex2img11.png)
 
-1. In the **Azure AI Search** page, select **Indexes** from left menu under Search management, you will be able to see an index with the name **phy-index** has been created.
+1. In the **Azure AI Search** page, select **Indexes (1)** from left menu under Search management, you will be able to see an index with the name **phy-index (2)** has been created.
 
-   ![](../media/ex4img8.png)
+   ![](../media/img-07.png)
 
    >**Note:** Please wait until some data populates under **Vector index size**, it may take some time to populate. The data may differ from the value shown in screenshot.
 
@@ -109,4 +109,6 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
 In this exercise, you navigated to Microsoft Foundry and added a data source by connecting Azure Blob Storage to the Chat Playground. You used GPT-4 Turbo and text embedding models to process text, images, and tables, generating vector indexes. These indexes were created in Azure AI Search, where you reviewed them to confirm successful ingestion and indexing.
 
+## You have successfully completed the lab. Now, click on **Next >>** from the lower right corner to proceed on to the next lab.
 
+![](../media/img-05.png)

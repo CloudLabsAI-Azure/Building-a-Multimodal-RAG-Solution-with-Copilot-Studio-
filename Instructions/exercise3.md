@@ -20,7 +20,7 @@ In this exercise, you will complete the following tasks:
 
 In this task, you will create an agent in Copilot Studio. The agent will leverage AI capabilities to process queries and generate responses. 
 
-1. Navigate back to the **Copilot Studio** tab. Since you are already logged in, select Agents from the left menu, and then select **+ Create blank agent**.
+1. Navigate back to the **Copilot Studio** tab. Since you are already logged in, select **Agents (1)** from the left menu, and then select **+ Create blank agent (2)**.
 
    ![](../media/nimg10.png)
 
@@ -28,7 +28,7 @@ In this task, you will create an agent in Copilot Studio. The agent will leverag
 
    ![](../media/nimg11.png)
 
-1. In the Edit pane, add the **Name** as `Physics Agent` and click on **Save**.
+1. In the Edit pane, add the **Name** as `Physics Agent` **(1)** and click on **Save (2)**.
 
    ![](../media/nimg12.png)
 
@@ -36,7 +36,7 @@ In this task, you will create an agent in Copilot Studio. The agent will leverag
 
 In this task, you will create custom topics and integrate them with AI Search as a knowledge base. This integration will enhance query processing by providing more relevant, domain-specific responses based on the custom topics you've defined, improving the overall accuracy and utility of the agent’s responses.
 
-1. Before configuring the agent, navigate back to Azure Portal and from the resource list of your resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** AI Search.
+1. Before configuring the agent, navigate back to **Azure Portal** and from the resource list of your resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** Search service.
 
    ![](../media/ex2img11.png)
 
@@ -44,11 +44,11 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/ex3img12.png)
 
-1. Select **Keys (1)** from left menu under Settings, copy **Primary admin key (2)** using the option as shown. You will be using this value further in this task.
+1. On the **aisearch-<inject key="DeploymentID" enableCopy="false" />** page, select **Keys (1)** from left menu under **Settings**, copy **Primary admin key (2)** using the option as shown. You will be using this value further in this task.
 
    ![](../media/ex3img13.png)
 
-1. Navigate back to Copilot Studio, as you have created an agent, it is now time to add custom topics to the agent. In the **Agents** pane, under **Topics** tab, select **+ Add a topic (1)** and click on **From blank (2)** from the dropdown.
+1. Navigate back to the **Copilot Studio**, as you have created an agent, it is now time to add custom topics to the agent. In the **Agents** pane, under **Topics** tab, select **+ Add a topic (1)** and click on **From blank (2)** from the dropdown.
 
    ![](../media/ex4img7.png)
 
@@ -122,7 +122,6 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/phyup11.png)
 
-
 1. Once after setup, your workflow will look similar to this.
 
    ![](../media/nimg20.png)
@@ -161,6 +160,12 @@ In this task, you will test the RAG pipeline in Copilot Studio. You will evaluat
 
    - `What happens to time if you fall into a black hole?`
 
+      >**Note:** The output may differ slightly from the screenshot depending on the current environment or updates.
+
 ## Summary
 
 In this exercise, you integrated AI Search with Copilot Studio to enhance your AI-powered workflows. You created an agent, improved query processing with custom topics, and tested and optimized the Retrieval-Augmented Generation (RAG) pipeline. This hands-on experience helped you use AI Search to better manage and retrieve information from various data sources, making your applications smarter and more efficient.
+
+## You have successfully completed the lab. Now, click on **Next >>** from the lower right corner to proceed on to the next lab.
+
+![](../media/img-05.png)

@@ -56,25 +56,25 @@ Welcome to the Building a Multimodal RAG Solution with Copilot Studio hands-on l
 
 Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
 
-![](../media/gs-1.png)
+![](../media/img-01.png)
 
 ### Exploring Your Lab Resources
 
 To get a better understanding of your Lab resources and credentials, navigate to the Environment tab.
 
-![](../media/gs-2.png)
+![](../media/img-02.png)
 
 ### Utilizing the Split Window Feature
 
 For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the Top right corner
 
-![](../media/gs-3.png)
+![](../media/img-03.png)
 
 ### Managing Your Virtual Machine
 
 Feel free to start, stop, or restart your virtual machine as needed from the Resources tab. Your experience is in your hands!
 
-![](../media/gs-4.png)
+![](../media/img-04-01.png)
 
 ## Let's Get Started with Azure Portal
 
@@ -164,5 +164,6 @@ Learner Support Contacts:
 
 Now, click **Next** in the lower-right corner to move to the next page.
 
-## Happy Learning!!
+![](../media/img-05.png)
 
+## Happy Learning!!
