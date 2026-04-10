@@ -48,21 +48,21 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
 1. Once you're inside **Microsoft Foundry**, go to the **Shared resources** section and click on **Deployments (1)** to view the deployed models under **Model Deployments (2)**.
 
-   ![](../media/21052025(5).png)
+   ![](../media/E1T2S5.png)
 
-   > **gpt-4o:** GPT-4o is an advanced multimodal model designed to seamlessly handle both text and image inputs with high accuracy and efficiency. It delivers faster responses, improved reasoning, and enhanced visual understanding capabilities, supporting tasks such as image analysis, caption generation, object detection, and complex multimodal interactions. Its balanced performance and versatility make it ideal for a wide range of real-world applications.
+   > **gpt-4.1:** GPT-4.1 is a highly capable language model optimized for strong reasoning, precise instruction-following, and reliable code generation. It delivers improved accuracy on complex tasks, better handling of long context inputs, and more consistent outputs across technical and analytical use cases. With its focus on performance and stability, GPT-4.1 is well-suited for applications such as software development, data analysis, structured content generation, and advanced problem-solving.
 
    > **text-embedding-ada-002:** A text embedding model converts text into a numerical representation (vector), capturing the semantic meaning of the content. These embeddings allow for efficient similarity searches and can be used to compare, cluster, or retrieve relevant information from large text datasets.
 
 1. In **Microsoft Foundry**, navigate to the chat playgrounds by selecting the **Chat** option from the left-hand menu.
 
-   ![](../media/21052025(6).png)
+   ![](../media/E1T2S6.png)
 
 1. On chat playground pane, select **Add your data (1)** to ingest data and click on **+ Add a data source (2)**.
 
-   ![](../media/21052025(7).png)
+   ![](../media/E1T2S7.png)
 
-1. On the **Add data** page, provide the following details and click on **Next (9)**.  
+1. On the **Add data** page, provide the following details and click on **Next (10)**.  
 
    - **Select data source:** Select **Azure Blob Storage (preview) (1)** from dropdown.
 
@@ -76,11 +76,13 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
 
    - **Enter the index name:** Enter **phy-index (6)**
 
-   - **Add vector search to this search resource:** Ensure the option is **Checked (7)**
+   - **Index scedule:** Select **Once (7)**
 
-   - **Select an embedding model:** Select **Azure OpenAI Service - text-embedding-ada-002 (8)** model.
+   - **Add vector search to this search resource:** Ensure the option is **Checked (8)**
 
-     ![](../media/21052025(8).png)
+   - **Select an embedding model:** Select **Azure OpenAI Service - text-embedding-ada-002 (9)** model.
+
+     ![](../media/E1T2S8.png)
 
 1. On the **Data Management page**, select **Hybrid (vector + keyword) (1)** under the Search type section. Then, under Select a size, check the **1024 (default) option (2)**. Once both selections are made, click **Next (3)** to continue.
 
@@ -127,6 +129,8 @@ In this task, you will connect Blob Storage as a data source in Azure AI Studio'
    - `What happens to time if you fall into a black hole?`
 
        ![](../media/gs1414.png)
+
+       ![](../media/E1T2S16-2.png)
 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
