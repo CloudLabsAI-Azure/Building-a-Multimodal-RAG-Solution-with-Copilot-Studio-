@@ -62,7 +62,7 @@ To get a better understanding of your Lab resources and credentials, you can jus
 
 For convenience, you can open the Lab guide in a separate window by selecting the **Split Window** button from the top right corner
 
-![](../media/gs-4upd.png)
+![](../media/GSSF.png)
 
 ## Managing Your Virtual Machine
 
@@ -112,6 +112,6 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 
 Now, click on the **Next** from the lower right corner to move to the next page.
 
-![](../media/gs-5.png)
+![](../media/next.png)
 
 ## Happy Learning!!
