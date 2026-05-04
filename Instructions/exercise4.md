@@ -65,7 +65,7 @@ In this task, you will integrate your RAG solution with a demo website, using it
 
 1. On **Publish this agent** pane, click on **Publish**.
 
-   ![](../media/nimg24.png)
+   ![](../media/may-multi-tt-gs-g24.png)
 
 1. Once it is published, open a new tab in the browser and use the URL copied to navigate to the **Demo Website**. A user interface will open, allowing you to interact with your published agent.
 
