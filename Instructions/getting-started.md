@@ -56,7 +56,7 @@ Welcome to the Building a Multimodal RAG Solution with Copilot Studio hands-on l
 
 Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
 
-![](../media/img-01.png)
+![](../media/may-multi-tt-gs-g1.png)
 
 ### Exploring Your Lab Resources
 
@@ -84,13 +84,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. On the **Sign into Microsoft** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
 
-   - Email/Username: **<inject key="AzureAdUserEmail"></inject>**
+   - Email: **<inject key="AzureAdUserEmail"></inject>**
 
      ![](../media/gs-lab3-g2.png)
 
-1. Now, enter the following password and click on **Sign in**.
+1. Now, enter the following **Temporary Access Pass** and click on **Sign in**.
 
-   - Password: **<inject key="AzureAdUserPassword"></inject>**
+   - **Temporary Access Pass**: **<inject key="AzureAdUserPassword"></inject>**
 
      ![](../media/gs-lab3-g3.png)
      
@@ -101,20 +101,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
    ```
    https://make.powerapps.com/
    ```
-
-1. On the **Sign into Microsoft** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
-
-   - Email/Username: **<inject key="AzureAdUserEmail"></inject>**
-
-     ![](../media/gs-lab3-g2.png)
-
-1. Now, enter the following password and click on **Sign in**.
-
-   - Password: **<inject key="AzureAdUserPassword"></inject>**
-
-     ![](../media/gs-lab3-g3.png)
-     
-1. If you see the pop-up **Stay Signed in?**, click **No**.
 
 1. If the **Welcome to Power Apps** pop-up appears, leave the default country/region selection and click **Get started**.
 
@@ -142,10 +128,10 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. In the **New environment** pane, configure the environment with the following settings, and then select **Next (3)**:
 
-   - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (1)** field.
-   - Select **Developer (2)** from the **Type** dropdown.
+   - Select **Developer (1)** from the **Type** dropdown.
+   - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (2)** field.
 
-      ![](../media/nimg25.png)
+      ![](../media/lev-mgmt-sb-gs-g1.png)
 
 1. In the **Add Dataverse** pane, leave all settings as default, and then select **Save**.
 
