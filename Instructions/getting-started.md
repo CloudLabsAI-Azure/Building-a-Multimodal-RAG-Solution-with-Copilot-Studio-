@@ -8,7 +8,7 @@ This hands-on lab guides you through building and automating a Retrieval-Augment
 
 ## Objectives
 
-Learn to build and automate a Retrieval-Augmented Generation (RAG) solution using Copilot Studio, leveraging AI models like text embeddings, language models, and generative AI. By the end of this lab, you will get insights on:
+Learn to build and automate a Retrieval-Augmented Generation (RAG) solution using Copilot Studio, leveraging AI models like text embeddings, language models, and generative AI. By the end of this lab, you will get insights into:
 
 - **Introduction to Retrieval-Augmented Generation (RAG) Automation and Copilot Studio:** Understand foundational concepts and practical applications of Retrieval-Augmented Generation (RAG).
 
@@ -78,7 +78,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 ## Let's Get Started with Azure Portal
 
-1. In the JumpVM, double-click on **Azure Portal** Shortcut to login to Azure.
+1. In the JumpVM, double-click on the **Azure Portal** Shortcut to log in to Azure.
 
      ![](../media/gs-8.png)
 
