@@ -6,9 +6,9 @@
 
 In this exercise, you will explore various deployment and publishing options for your AI-powered solution. The focus will be on integrating Retrieval-Augmented Generation (RAG) with custom platforms, with an emphasis on deploying the solution to a public demo website. Authentication will be removed in this exercise because the application will be deployed as a public website. You will explore available publishing channels, such as Teams, Slack, and others, but in this exercise, you will configure and publish the app specifically to the Demo Website channel.
 
-## Exerccise Objectives
+## Exercise Objectives
 
-- Task 1: Integrating RAG with custom platform
+- Task 1: Integrating RAG with the custom platform
 
 ### Task 1: Integrating RAG with Custom Platforms
 
@@ -26,36 +26,36 @@ In this task, you will integrate your RAG solution with a demo website, using it
 
    ![](../media/ex4img2.png)
 
-1. Under **Authentication**, choose **No authentication (1)** option, as you are publishing the agent as a website. Click on **Save (2)**.
+1. Under **Authentication**, choose the **No authentication (1)** option, as you are publishing the agent as a website. Click on **Save (2)**.
 
    ![](../media/ex4img3.png)
 
-1. On the **Save this configuration?** pop-up, select **Save**. After saving the changes **Close** settings from top right of the settings menu.
+1. On the **Save this configuration?** pop-up, select **Save**. After saving the changes, **Close** settings from the top right of the settings menu.
 
    ![](../media/nimg23.png)
 
-1. Once the authentication part is done, navigate to **Channels (1)** tab and check that many options are available to publish the agent, but in this lab you will be using **Demo webiste (2)** option, so click on that.
+1. Once the authentication part is done, navigate to the **Channels (1)** tab and check that many options are available to publish the agent, but in this lab, you will be using the **Demo website (2)** option, so click on that.
 
    ![](../media/E4T2S5.png)
 
    > Other Options:
 
-   > - **Teams:** Publishing your AI-powered agent in Microsoft Teams enables seamless integration with one of the most widely used collaboration platforms in businesses. By deploying the agent within Teams, employees or teams can interact with it directly within their workflows. This is useful for support bots, HR assistants, project management tools, and task automation scenarios., or task automation, where the agent can assist in real-time communication, meetings, or project channels. Teams bots can also use advanced features like adaptive cards and proactive messaging to keep users informed and engaged.
+   > - **Teams:** Publishing your AI-powered agent in Microsoft Teams enables seamless integration with one of the most widely used collaboration platforms in businesses. By deploying the agent within Teams, employees or teams can interact with it directly within their workflows. This is useful for support bots, HR assistants, project management tools, and task automation scenarios, or task automation, where the agent can assist in real-time communication, meetings, or project channels. Teams bots can also use advanced features like adaptive cards and proactive messaging to keep users informed and engaged.
 
-   > - **Slack:** Slack is another popular team collaboration tool. By publishing your agent to Slack, you enable your team to integrate the AI agent directly into channels, direct messages, or workflows. Slack bots can automate tasks like setting reminders, providing data reports, answering FAQs, or assisting with specific workflows such as onboarding.
+   > - **Slack:** Slack is another popular team collaboration tool. By publishing your agent to Slack, you enable your team to integrate the AI agent directly into channels, direct messages, or workflows. Slack bots can automate tasks like setting reminders, providing data reports, answering FAQs, or assisting with specific workflows, such as onboarding.
 
    > - You can explore more on these publishing options using this [Reference](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web)
 
-1. Once the **Demo Website** option is selected, a new pane will be opened from left. In that pane, providea friendly welcome message and a few conversation starters as follows:
+1. Once the **Demo Website** option is selected, a new pane will be opened from the left. In that pane, provide a friendly welcome message and a few conversation starters as follows:
 
-   - **Welcome message:** `Hi there! I'm your friendly Physics Bot 🤖. I'm here to help you understand everything from how black holes work to mind-bending formulas. Let's explore the wonders of the universe together!` **(1)** 
+   - **Welcome message:** `Hi there! I'm your friendly Physics Bot. I'm here to help you understand everything from how black holes work to mind-bending formulas. Let's explore the wonders of the universe together!` **(1)** 
 
    - **Conversation starters: (2)** 
       - `What happens to time if you fall into a black hole?`
       - `What is Friction?`
       - `Define Mass of Earth`
 
-   -  Use the **Copy (3)** button to copy the URL of the website, note it down safely and click on **Save (4)**. Close the pane once saved.
+   -  Use the **Copy (3)** button to copy the URL of the website, note it down safely, and click on **Save (4)**. Close the pane once saved.
 
       ![](../media/ex4img11.png)
 
