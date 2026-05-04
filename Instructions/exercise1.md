@@ -64,7 +64,7 @@ In this task, you will log in to Copilot Studio.
    https://copilotstudio.microsoft.com
    ```
 
-1. On Welcome to Microsoft Copilot Studio page, click **Get Started**.
+1. On the Welcome to Microsoft Copilot Studio page, click **Get Started**.
 
    ![](../media/pp-13.png)
 
