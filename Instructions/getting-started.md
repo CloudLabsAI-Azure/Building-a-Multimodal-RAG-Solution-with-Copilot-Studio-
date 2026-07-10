@@ -62,13 +62,13 @@ Once you're ready to dive in, your virtual machine and Lab guide will be right a
 
 To get a better understanding of your Lab resources and credentials, navigate to the Environment tab.
 
-![](../media/img-02.png)
+![](../media/image-01.png)
 
 ### Utilizing the Split Window Feature
 
 For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the Top right corner
 
-![](../media/img-03.png)
+![](../media/image-02.png)
 
 ### Managing Your Virtual Machine
 
@@ -90,7 +90,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. Now, enter the following password and click on **Sign in**.
 
-   - Password: **<inject key="AzureAdUserPassword"></inject>**
+   - Temporary Access Pass: **<inject key="AzureAdUserPassword"></inject>**
 
      ![](../media/gs-lab3-g3.png)
      
@@ -110,7 +110,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. Now, enter the following password and click on **Sign in**.
 
-   - Password: **<inject key="AzureAdUserPassword"></inject>**
+   - Temporary Access Pass: **<inject key="AzureAdUserPassword"></inject>**
 
      ![](../media/gs-lab3-g3.png)
      
@@ -140,12 +140,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    ![](../media/d2-coor-gs-g2.png)
 
-1. In the **New environment** pane, configure the environment with the following settings, and then select **Next (3)**:
+1. In the **New environment** pane, configure the environment with the following settings, and then select **Next (4)**:
 
-   - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (1)** field.
-   - Select **Developer (2)** from the **Type** dropdown.
+   - Select **Developer (1)** from the **Type** dropdown.
+   - Select **United States - Default (2)** for the **Region**.
+   - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (3)** field.
 
-      ![](../media/nimg25.png)
+      ![](../media/image-03.png)
 
 1. In the **Add Dataverse** pane, leave all settings as default, and then select **Save**.
 

@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this exercise, you will learn how to ingest data into a system powered by Azure AI tools and preprocess it using GPT-4.1 and text embedding models. This exercise involves connecting Azure Blob Storage to Microsoft Foundry, where various datasets have been uploaded. You will use these files to create vectorized indexes, which will be generated using advanced AI models. You will then navigate to Azure AI Search to review the structure of the created indexes, ensuring that the data has been successfully ingested and preprocessed.
+In this exercise, you will learn how to ingest data into a system powered by Azure AI tools and preprocess it using GPT-5.4 and text embedding models. This exercise involves connecting Azure Blob Storage to Microsoft Foundry, where various datasets have been uploaded. You will use these files to create vectorized indexes, which will be generated using advanced AI models. You will then navigate to Azure AI Search to review the structure of the created indexes, ensuring that the data has been successfully ingested and preprocessed.
 
 ## Objectives
 
@@ -14,7 +14,7 @@ You will complete the following task:
 
 ### Task 1: Adding and Configuring a Data Source
 
-In this task, you will connect Azure Blob Storage as a data source in Microsoft Foundry’s Chat Playground. GPT-4.1 and text embedding model will process the uploaded files, extract relevant data, and create indexed vectors in Azure AI Search. You will then review the created indexes.
+In this task, you will connect Azure Blob Storage as a data source in Microsoft Foundry’s Chat Playground. GPT-5.4 and text embedding model will process the uploaded files, extract relevant data, and create indexed vectors in Azure AI Search. You will then review the created indexes.
 
 1. Now that you have set up Copilot Studio, you will ingest data. Navigate to Azure Portal from your browser.
 
@@ -30,29 +30,39 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    ![](../media/ex1-updated2.png)
 
-1. In the Azure OpenAI pane, click on **Go to Foundry Portal** to navigate to Microsoft Foundry, where you will be ingesting your data.
+1. On the **openai-<inject key="DeploymentID" enableCopy="false" />** page, from the left navigation menu, select **Identity** under **Resource Management**. On the **Identity** page, select **On (3)** under **System assigned (2)**, and select **Save (4)**.
+
+   ![](../media/image-05.png)
+
+1. Navigate back to the **Overview** section. You will see a blue banner that says, "**Want to try the latest industry models and agents?**" Select **Get Started**.
+
+   ![](../media/banner.png)
+
+1. OIn the **Resource update** section, do not change any values. Select Next, and then click Create to create the project.
+
+1. In the Azure OpenAI pane, on the **Overview** section, click on **Go to Foundry Portal** to navigate to Microsoft Foundry, where you will be ingesting your data.
 
    ![](../media/nimg1.png)
 
-1. Once you are inside the **Microsoft Foundry**, click on **deployments** to check the deployed models.
+1. Once you are inside the **Microsoft Foundry**, click on **View deployments** to check the deployed models.
 
-   ![](../media/nimg2.png)
+   ![](../media/image-06.png)
 
    > **text-embedding-ada-002:** A text embedding model converts text into a numerical representation (vector), capturing the semantic meaning of the content. These embeddings allow for efficient similarity searches and can be used to compare, cluster, or retrieve relevant information from large text datasets.
 
-1. In Microsoft Foundry, navigate to chat playground by selecting **chat** option from the left menu.
+1. In Microsoft Foundry, select gpt-5.4. On the gpt-5.4 page, select **Save as agent (1)**. In the **Create an agent** pane, enter **OpenAI-<inject key="DeploymentID" enableCopy="false" /> (2)** as the agent name, and then select **Create and open playground (3)**.
 
-   ![](../media/nimg3.png)
+   ![](../media/image-07.png)
 
-1. On chat playground pane, select **Add your data (1)** to ingest data and click on **+ Add a data source (2)**.
+1. On the **OpenAI-<inject key="DeploymentID" enableCopy="false" />** page, under the **Tools** section, select **Add (1)** drop-down and from the drop-down list select **Browse all tools (2)**.
 
-   ![](../media/uupimg16.png)
+   ![](../media/image-09.png)
 
-   > If you are not able to see the setup menu, please click on **show setup** button to expand the setup menu.
+1. On the **Select a tool** pane, under the **catalog (1)** tab. Search and select **Azure Blob Storage (2)** option. Select **Create (3)**.
 
-      ![](../media/uupimg10.png)
+   ![](../media/image-10.png)
 
-1. In the **Add data** page, provide the following details and click on **Next (9)**.  
+1. In the **Add data** page, under the **catalog** tab provide the following details and click on **Next (9)**.  
 
    - **Select data source :** select **Azure Blob Storage (preview) (1)** from dropdown.
 
