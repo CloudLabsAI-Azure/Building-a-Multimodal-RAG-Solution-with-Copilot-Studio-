@@ -62,8 +62,8 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    | Setting | Value |
    |----------|-------|
-   | **Name (1)** | `knowledgebase-<inject key="DeploymentID" enableCopy="false" />` |
-   | **Chat completions model (2)** | `gpt-5.4` |
+   | **Name (1)** | knowledgebase-<inject key="DeploymentID" enableCopy="false" /> |
+   | **Chat completions model (2)** | gpt-5.4 |
 
       ![](../media/MM02.png)
 
@@ -72,7 +72,7 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
     | Setting | Value |
     |----------|-------|
     | **Name (1)** | `phy-index` |
-    | **Storage account (2)** | Select your storage account |
+    | **Storage account (2)** | storage<inject key="DeploymentID" enableCopy="false" /> |
     | **Container name (3)** | `documents` |
     | **Authentication type (4)** | **API Key** |
     | **Embedding model (5)** | `text-embedding-ada-002` |
