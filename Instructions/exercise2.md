@@ -54,57 +54,45 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    ![](../media/image-07.png)
 
-1. On the **OpenAI-<inject key="DeploymentID" enableCopy="false" />** page, under the **Tools** section, select **Add (1)** drop-down and from the drop-down list select **Browse all tools (2)**.
+1. In **Microsoft Foundry**, select **Knowledge (1)**. Verify that your Azure AI Search connection is selected **(2)**, and then click **Create a knowledge base (3)**.
 
-   ![](../media/image-09.png)
+    ![](../media/MM1.png)
 
-1. On the **Select a tool** pane, under the **catalog (1)** tab. Search and select **Azure Blob Storage (2)** option. Select **Create (3)**.
+1. On the **Create a new knowledge base** page, configure the following settings. Under **Knowledge sources**, click **Add sources (3)** and select **Azure Blob Storage (4)**.
 
-   ![](../media/image-10.png)
+   | Setting | Value |
+   |----------|-------|
+   | **Name (1)** | `knowledgebase-<inject key="DeploymentID" enableCopy="false" />` |
+   | **Chat completions model (2)** | `gpt-5.4` |
 
-1. In the **Add data** page, under the **catalog** tab provide the following details and click on **Next (9)**.  
+      ![](../media/MM02.png)
 
-   - **Select data source :** select **Azure Blob Storage (preview) (1)** from dropdown.
+1. On the **Create a knowledge source** page, configure the following settings, and then click **Create (7)**.
 
-   - **Subscription :** Select the available subscription **(2)**.
+    | Setting | Value |
+    |----------|-------|
+    | **Name (1)** | `phy-index` |
+    | **Storage account (2)** | Select your storage account |
+    | **Container name (3)** | `documents` |
+    | **Authentication type (4)** | **API Key** |
+    | **Embedding model (5)** | `text-embedding-ada-002` |
+    | **Chat completions model (6)** | `gpt-5.4` |
 
-   - **Select Azure Blob Storage resource :** Select **storage<inject key="DeploymentID" enableCopy="false" />** **(3)** storage account from list.
+    ![](../media/MM3.png)
 
-   - **Select storage container :** select **documents (4)** container.
+1. After the knowledge source is created, click **Save knowledge base** to save the configuration.
 
-   - **Select Azure AI Search resource :** select **aisearch-<inject key="DeploymentID" enableCopy="false" />** **(5)** AI Search from list.
+    ![](../media/MM4.png)
 
-   - **Enter the index name :** provide as **phy-index (6)**.
-
-   - **Add vector search to this search resource :** ensure the option is **Checked (7)**
-
-   - **Select an embedding model :** select **Azure OpenAI-text-embedding-ada-002 (8)** model.
-
-     ![](../media/nimg4.png)
-
-1. On the **Data management** pane, keep everything as default and click on **Next**.
-
-   ![](../media/nimg5.png)
-
-1. In the **Data connection** page, check the **API key (1)**, click on **Next (2)** and click on **save and close**.
-
-   ![](../media/img-06.png)
-
-   ![](../media/nimg7.png)
-
-1. Once the Add data pane is closed, you will see **Ingestion in progress** status under Add you data. Please wait until it completes.
-
-   ![](../media/nimg8.png)
-
-1. Once the ingestion is completed, navigate back to **Azure portal** and from the resource list of the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** Search service.
+1. Once the ingestion is completed, navigate back to the **Azure portal** and from the resource list of the resource group, select **aisearch-<inject key="DeploymentID" enableCopy="false" />** Search service.
 
    ![](../media/ex2img11.png)
 
-1. In the **Azure AI Search** page, select **Indexes (1)** from left menu under Search management, you will be able to see an index with the name **phy-index (2)** has been created.
+1. In the **Azure AI Search** page, under **Search management**, select **Indexes (1)**. Verify that the **phy-index (2)** index has been created.
 
    ![](../media/img-07.png)
 
-   >**Note:** Please wait until some data populates under **Vector index size**, it may take some time to populate. The data may differ from the value shown in screenshot.
+   > **Note:** Please wait until some data populates under **Vector index size**, as it may take a few minutes to complete. The value displayed in your environment may differ from the value shown in the screenshot.
 
 1. Now the data has been ingested, and the index has been created successfully.
 
