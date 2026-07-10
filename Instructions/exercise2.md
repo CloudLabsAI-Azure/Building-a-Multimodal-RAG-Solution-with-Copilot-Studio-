@@ -62,8 +62,8 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    | Setting | Value |
    |----------|-------|
-   | **Name (1)** | `knowledgebase-<inject key="DeploymentID" enableCopy="false" />` |
-   | **Chat completions model (2)** | `gpt-5.4` |
+   | **Name (1)** | knowledgebase-<inject key="DeploymentID" enableCopy="false" /> |
+   | **Chat completions model (2)** | gpt-5.4 |
 
       ![](../media/MM02.png)
 
