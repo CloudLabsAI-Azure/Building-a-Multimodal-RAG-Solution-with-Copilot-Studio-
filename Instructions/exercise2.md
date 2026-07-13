@@ -54,10 +54,22 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    ![](../media/image-07.png)
 
-1. In **Microsoft Foundry**, select **Knowledge (1)**. Verify that your Azure AI Search connection is selected **(2)**, and then click **Create a knowledge base (3)**.
+1. In **Microsoft Foundry**, select **Knowledge (1)**. Verify that the **Foundry IQ resource (2)** is selected and the **Auth Type (3)** is set to **API Key**, and then click **Connect (4)**.
+
+    ![](../media/MM5.png)
+
+1. In **Knowledge(Foundry IQ) (1)** page. Verify that your Azure AI Search connection is selected **(2)**, and then click **Create a knowledge base (3)**.
 
     ![](../media/MM1.png)
 
+      > **Note:** If the **Create a knowledge base** option is unavailable or disabled, semantic ranker must be enabled on your Azure AI Search resource. Click **Enable semantic ranker**.
+
+      ![](../media/MM6.png)
+
+      > **Note:** In the **Enable semantic ranker** pane, select the **Free (1)** tier, and then click **Enable semantic ranker (2)**. After the semantic ranker is enabled, return to the previous page and continue with the lab.
+
+      ![](../media/MM7.png)
+      
 1. On the **Create a new knowledge base** page, configure the following settings. Under **Knowledge sources**, click **Add sources (3)** and select **Azure Blob Storage (4)**.
 
    | Setting | Value |
