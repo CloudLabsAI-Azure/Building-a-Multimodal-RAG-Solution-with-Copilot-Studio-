@@ -49,11 +49,7 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
    ![](../media/image-06.png)
 
    > **text-embedding-ada-002:** A text embedding model converts text into a numerical representation (vector), capturing the semantic meaning of the content. These embeddings allow for efficient similarity searches and can be used to compare, cluster, or retrieve relevant information from large text datasets.
-
-1. In Microsoft Foundry, select gpt-5.4. On the gpt-5.4 page, select **Save as agent (1)**. In the **Create an agent** pane, enter **OpenAI-<inject key="DeploymentID" enableCopy="false" /> (2)** as the agent name, and then select **Create and open playground (3)**.
-
-   ![](../media/image-07.png)
-
+   
 1. In **Microsoft Foundry**, select **Knowledge (1)**. Verify that the **Foundry IQ resource (2)** is selected and the **Auth Type (3)** is set to **API Key**, and then click **Connect (4)**.
 
     ![](../media/MM5.png)
@@ -69,7 +65,7 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
       > **Note:** In the **Enable semantic ranker** pane, select the **Free (1)** tier, and then click **Enable semantic ranker (2)**. After the semantic ranker is enabled, return to the previous page and continue with the lab.
 
       ![](../media/MM7.png)
-      
+
 1. On the **Create a new knowledge base** page, configure the following settings. Under **Knowledge sources**, click **Add sources (3)** and select **Azure Blob Storage (4)**.
 
    | Setting | Value |
