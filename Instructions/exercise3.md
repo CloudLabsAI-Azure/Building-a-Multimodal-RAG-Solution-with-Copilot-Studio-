@@ -44,9 +44,9 @@ In this task, you will create custom topics and integrate them with AI Search as
 
    ![](../media/ex3img12.png)
 
-1. On the **aisearch-<inject key="DeploymentID" enableCopy="false" />** page, select **Keys (1)** from left menu under **Settings**, copy **Primary admin key (2)** using the option as shown. You will be using this value further in this task.
+1. In the **Azure AI Search** resource, expand **Security + networking (1)** and select **Keys (2)**. Ensure **API keys** is selected under **API Access control**, and then copy the **Primary admin key (3)**.
 
-   ![](../media/ex3img13.png)
+   ![](../media/MM8.png)
 
 1. Navigate back to the **Copilot Studio**, as you have created an agent, it is now time to add custom topics to the agent. In the **Agents** pane, under **Topics** tab, select **+ Add a topic (1)** and click on **From blank (2)** from the dropdown.
 
