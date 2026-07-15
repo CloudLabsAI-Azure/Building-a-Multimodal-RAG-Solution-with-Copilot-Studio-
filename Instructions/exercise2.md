@@ -34,11 +34,27 @@ In this task, you will connect Azure Blob Storage as a data source in Microsoft 
 
    ![](../media/image-05.png)
 
+   > **Note:** If the **Enable system assigned managed identity** confirmation dialog appears, select **Yes** to continue.
+
+    ![](../media/MM9.png)
+
 1. Navigate back to the **Overview** section. You will see a blue banner that says, "**Want to try the latest industry models and agents?**" Select **Get Started**.
 
    ![](../media/banner.png)
 
-1. OIn the **Resource update** section, do not change any values. Select Next, and then click Create to create the project.
+1. On the **Resource Upgrade** page, select **Confirm (1)**.
+
+    ![](../media/MM10.png)
+
+1. On the **Select a project name** page, keep the default project name **proj-default** and select **Next (2)**.
+
+    ![](../media/MM11.png)
+
+1. On the **Upgrade** page, select **Upgrade (3)**.
+
+    ![](../media/MM12.png)
+
+    > **Note:** Wait for the resource upgrade to complete successfully before proceeding to the next task.
 
 1. In the Azure OpenAI pane, on the **Overview** section, click on **Go to Foundry Portal** to navigate to Microsoft Foundry, where you will be ingesting your data.
 
